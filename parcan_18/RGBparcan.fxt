@@ -10,21 +10,24 @@ Blizzard_Lighting_ProPar_Quadra.gif
 0
 0
 0
+1
+255
 0
-0
-0
- 0 
+ 1 
+2
+3
+4
 shutter
 red
 green
 blue
 strobe
 hue
+5
 
-
-
-
-
+50
+100
+1
 
 
 
@@ -43,11 +46,11 @@ Macros
 
 
 
+ 0 
+
+
+
  1 
-
-
-
- 0 
  0 
 
 
@@ -57,7 +60,7 @@ Macros
 
 
 
-
+0
 255
 255
 255
@@ -67,9 +70,9 @@ Macros
 
 
 0
-0
-0
-0
+255
+255
+255
 0
 0
 255
@@ -97,3 +100,22 @@ Sliders
 
 
 
+
+0
+255
+
+0
+255
+
+0
+255
+Multipart
+
+
+
+0
+0
+0
+0
+0
+0
