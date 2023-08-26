@@ -1,11 +1,5 @@
 # DMX fixtures
 
-## Reference
-
-- Use with [Freestyler2](https://www.freestylerdmx.be/)
-- copy fixtures to freestyler folder
-    - copy Gobos folder
-
 ## DarkBlue settings
 
 **Universe 1**
@@ -27,3 +21,8 @@
     ```bash
     C:\QLC+\qlcplus.exe -o %USERPROFILE%\dmx-fixtures\DarkBlue_office.qxw
     ```
+## Freestyler
+
+1. Install [Freestyler2](https://www.freestylerdmx.be/)
+2. copy fixtures to freestyler folder
+3. copy Gobos folder
