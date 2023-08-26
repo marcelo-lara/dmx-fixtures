@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>darkangel</Author>
+ </Creator>
+ <Manufacturer>DarkBlue</Manufacturer>
+ <Model>Head EL150</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="X pos" Preset="PositionPan"/>
+ <Channel Name="X-Fine Pos" Preset="PositionPanFine"/>
+ <Channel Name="Y Pos" Preset="PositionTilt"/>
+ <Channel Name="Y-Fine Pos" Preset="PositionTiltFine"/>
+ <Channel Name="XY Speed" Preset="SpeedPanTiltFastSlow"/>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Shutter">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="9" Preset="ShutterClose">Closed</Capability>
+  <Capability Min="10" Max="250" Preset="StrobeSlowToFast">Strobe Slow to Fast</Capability>
+  <Capability Min="251" Max="255" Preset="ShutterOpen">Open</Capability>
+ </Channel>
+ <Channel Name="Color Wheel">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="23" Preset="ColorMacro" Res1="#ffffff">White</Capability>
+  <Capability Min="24" Max="47" Preset="ColorMacro" Res1="#ffff00">Yellow</Capability>
+  <Capability Min="48" Max="71" Preset="ColorMacro" Res1="#66ccff">Cyan</Capability>
+  <Capability Min="72" Max="95" Preset="ColorMacro" Res1="#8000ff">Purple</Capability>
+  <Capability Min="96" Max="119" Preset="ColorMacro" Res1="#66ff66">Lime</Capability>
+  <Capability Min="120" Max="143" Preset="ColorMacro" Res1="#00ff00">Green</Capability>
+  <Capability Min="144" Max="167" Preset="ColorMacro" Res1="#0000ff">Blue</Capability>
+  <Capability Min="168" Max="191" Preset="ColorMacro" Res1="#ff0000">Red</Capability>
+ </Channel>
+ <Channel Name="Gobo Wheel">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="11"  Preset="GoboMacro" Res1="EL150/el150_gobo_0.gif">Gobo 1</Capability>
+  <Capability Min="12" Max="23" Preset="GoboMacro" Res1="EL150/el150_gobo_1.gif">Gobo 2</Capability>
+  <Capability Min="24" Max="35" Preset="GoboMacro" Res1="EL150/el150_gobo_2.gif">Gobo 3</Capability>
+  <Capability Min="36" Max="47" Preset="GoboMacro" Res1="EL150/el150_gobo_3.gif">Gobo 4</Capability>
+  <Capability Min="48" Max="59" Preset="GoboMacro" Res1="EL150/el150_gobo_4.gif">Gobo 5</Capability>
+  <Capability Min="60" Max="71" Preset="GoboMacro" Res1="EL150/el150_gobo_5.gif">Gobo 6</Capability>
+  <Capability Min="72" Max="83" Preset="GoboMacro" Res1="EL150/el150_gobo_6.gif">Gobo 7</Capability>
+  <Capability Min="84" Max="95" Preset="GoboMacro" Res1="EL150/el150_gobo_7.gif">Gobo 8</Capability>
+ </Channel>
+ <Channel Name="AutoPlay">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Channel Name="NC_XY_autorun">
+  <Group Byte="0">Nothing</Group>
+ </Channel>
+ <Channel Name="Reset">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="200">Normal</Capability>
+  <Capability Min="201" Max="255">Reset</Capability>
+ </Channel>
+ <Mode Name="General">
+  <Channel Number="0" ActsOn="0">X pos</Channel>
+  <Channel Number="1" ActsOn="1">X-Fine Pos</Channel>
+  <Channel Number="2" ActsOn="2">Y Pos</Channel>
+  <Channel Number="3" ActsOn="3">Y-Fine Pos</Channel>
+  <Channel Number="4" ActsOn="4">XY Speed</Channel>
+  <Channel Number="5" ActsOn="5">Dimmer</Channel>
+  <Channel Number="6" ActsOn="6">Shutter</Channel>
+  <Channel Number="7" ActsOn="7">Color Wheel</Channel>
+  <Channel Number="8" ActsOn="8">Gobo Wheel</Channel>
+  <Channel Number="9" ActsOn="9">AutoPlay</Channel>
+  <Channel Number="10" ActsOn="10">NC_XY_autorun</Channel>
+  <Channel Number="11" ActsOn="11">Reset</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="HSD 575W" Lumens="1500" ColourTemperature="3200"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Head" PanMax="540" TiltMax="190"/>
+  <Technical PowerConsumption="17" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>

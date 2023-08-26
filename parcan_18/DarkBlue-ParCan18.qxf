@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>darkangel</Author>
+ </Creator>
+ <Manufacturer>DarkBlue</Manufacturer>
+ <Model>ParCan18</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Light">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="0">Off</Capability>
+  <Capability Min="1" Max="254">Dimmer</Capability>
+  <Capability Min="255" Max="255">On</Capability>
+ </Channel>
+ <Channel Name="Red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+ </Channel>
+ <Channel Name="Grreen">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+ </Channel>
+ <Channel Name="Blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="255" Preset="SlowToFast">Slow-Fast</Capability>
+ </Channel>
+ <Channel Name="AutoColor">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255">Color Change</Capability>
+ </Channel>
+ <Mode Name="General">
+  <Channel Number="0" ActsOn="0">Light</Channel>
+  <Channel Number="1" ActsOn="1">Red</Channel>
+  <Channel Number="2" ActsOn="2">Grreen</Channel>
+  <Channel Number="3" ActsOn="3">Blue</Channel>
+  <Channel Number="4" ActsOn="4">Strobe</Channel>
+  <Channel Number="5" ActsOn="5">AutoColor</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="10" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>
