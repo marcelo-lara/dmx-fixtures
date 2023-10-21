@@ -521,7 +521,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="5" Y="5" Width="650" Height="525"/>
+    <WindowState Visible="True" X="0" Y="0" Width="330" Height="815"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -654,7 +654,7 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <WindowState Visible="True" X="325" Y="50" Width="320" Height="470"/>
+     <WindowState Visible="True" X="0" Y="525" Width="325" Height="285"/>
      <AllowChildren>False</AllowChildren>
      <AllowResize>True</AllowResize>
      <ShowHeader>False</ShowHeader>
@@ -663,7 +663,7 @@
      <Collapsed>False</Collapsed>
      <Disabled>False</Disabled>
      <Button Caption="pos art left" ID="48" Icon="">
-      <WindowState Visible="True" X="10" Y="335" Width="70" Height="35"/>
+      <WindowState Visible="True" X="5" Y="210" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -676,7 +676,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos art right" ID="49" Icon="">
-      <WindowState Visible="True" X="80" Y="335" Width="75" Height="35"/>
+      <WindowState Visible="True" X="80" Y="210" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -689,7 +689,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos ceil BL" ID="50" Icon="">
-      <WindowState Visible="True" X="190" Y="275" Width="75" Height="35"/>
+      <WindowState Visible="True" X="5" Y="250" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -702,7 +702,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos ceil CL" ID="51" Icon="">
-      <WindowState Visible="True" X="190" Y="310" Width="75" Height="35"/>
+      <WindowState Visible="True" X="80" Y="250" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -715,7 +715,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos ceil FL" ID="52" Icon="">
-      <WindowState Visible="True" X="190" Y="345" Width="75" Height="35"/>
+      <WindowState Visible="True" X="155" Y="250" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -728,7 +728,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos couch center" ID="53" Icon="">
-      <WindowState Visible="True" X="70" Y="70" Width="75" Height="35"/>
+      <WindowState Visible="True" X="80" Y="175" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -741,7 +741,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos couch left" ID="54" Icon="">
-      <WindowState Visible="True" X="10" Y="70" Width="75" Height="35"/>
+      <WindowState Visible="True" X="5" Y="175" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -754,7 +754,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos couch right" ID="55" Icon="">
-      <WindowState Visible="True" X="130" Y="70" Width="75" Height="35"/>
+      <WindowState Visible="True" X="155" Y="175" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -767,7 +767,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos dark" ID="56" Icon="">
-      <WindowState Visible="True" X="190" Y="70" Width="75" Height="35"/>
+      <WindowState Visible="True" X="155" Y="5" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -780,7 +780,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos desk4" ID="57" Icon="">
-      <WindowState Visible="True" X="250" Y="70" Width="75" Height="35"/>
+      <WindowState Visible="True" X="5" Y="5" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -793,7 +793,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos door" ID="58" Icon="">
-      <WindowState Visible="True" X="10" Y="130" Width="75" Height="35"/>
+      <WindowState Visible="True" X="5" Y="95" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -806,7 +806,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos heater (arg)" ID="59" Icon="">
-      <WindowState Visible="True" X="70" Y="130" Width="75" Height="35"/>
+      <WindowState Visible="True" X="155" Y="95" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -819,7 +819,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos heater (door)" ID="60" Icon="">
-      <WindowState Visible="True" X="130" Y="130" Width="75" Height="35"/>
+      <WindowState Visible="True" X="80" Y="95" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -832,7 +832,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos inblue" ID="61" Icon="">
-      <WindowState Visible="True" X="190" Y="130" Width="75" Height="35"/>
+      <WindowState Visible="True" X="80" Y="5" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -845,7 +845,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos mic" ID="62" Icon="">
-      <WindowState Visible="True" X="250" Y="130" Width="75" Height="35"/>
+      <WindowState Visible="True" X="230" Y="45" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -858,7 +858,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos mic2" ID="63" Icon="">
-      <WindowState Visible="True" X="10" Y="190" Width="75" Height="35"/>
+      <WindowState Visible="True" X="155" Y="45" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -871,7 +871,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos piano" ID="64" Icon="">
-      <WindowState Visible="True" X="70" Y="190" Width="75" Height="35"/>
+      <WindowState Visible="True" X="230" Y="5" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -884,7 +884,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos rack" ID="65" Icon="">
-      <WindowState Visible="True" X="130" Y="190" Width="75" Height="35"/>
+      <WindowState Visible="True" X="80" Y="45" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -897,7 +897,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos wall center bottom" ID="66" Icon="">
-      <WindowState Visible="True" X="190" Y="190" Width="75" Height="35"/>
+      <WindowState Visible="True" X="230" Y="135" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -910,7 +910,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos wall center top" ID="67" Icon="">
-      <WindowState Visible="True" X="250" Y="190" Width="75" Height="35"/>
+      <WindowState Visible="True" X="80" Y="135" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -923,7 +923,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos wall left top" ID="68" Icon="">
-      <WindowState Visible="True" X="10" Y="250" Width="75" Height="35"/>
+      <WindowState Visible="True" X="5" Y="135" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -936,7 +936,7 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="pos wall right" ID="69" Icon="">
-      <WindowState Visible="True" X="80" Y="370" Width="75" Height="35"/>
+      <WindowState Visible="True" X="155" Y="135" Width="75" Height="35"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -958,7 +958,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="915" Y="0" Width="395" Height="350"/>
+    <WindowState Visible="True" X="325" Y="0" Width="395" Height="350"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1250,7 +1250,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="990" Y="390" Width="395" Height="350"/>
+    <WindowState Visible="True" X="325" Y="350" Width="395" Height="350"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1541,7 +1541,7 @@
      <BackgroundImage>None</BackgroundImage>
      <Font>Default</Font>
     </Appearance>
-    <WindowState Visible="True" X="5" Y="530" Width="650" Height="175"/>
+    <WindowState Visible="True" X="325" Y="700" Width="395" Height="115"/>
     <AllowChildren>True</AllowChildren>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
@@ -1600,9 +1600,9 @@
     <Speed FadeIn="0" FadeOut="0" Duration="4294967295"/>
     <Cue Name="ARM">
      <Value Channel="15">255</Value>
-     <Value Channel="21">255</Value>
-     <Value Channel="5">255</Value>
      <Value Channel="6">255</Value>
+     <Value Channel="5">255</Value>
+     <Value Channel="21">255</Value>
      <Speed FadeIn="0" FadeOut="0" Duration="0"/>
     </Cue>
    </CueStack>
