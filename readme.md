@@ -3,11 +3,13 @@
 ## DarkBlue settings
 
 ### Universe 1
-|CH   | device         |
-|-----|----------------|
-|01-15| Head EL-150    |
-|16-21| Parcan RGB 18  |
-|22-27| Parcan RGB 18  |
+|CH   | device          |
+|-----|-----------------|
+|01-15| Head EL-150     |
+|16-21| Parcan RGB 18   |
+|22-27| Parcan RGB 18   |
+|28-35| Parcan Proton18 |
+
 
 
 ### Fixtures
@@ -28,7 +30,18 @@
 | 011     | XY Auto Run      | 0–255: Auto XY sequences 1–8 + Sound Control              |
 | 012     | Reset            | 250–255: Reset motors (10 sec)                            |
 
-#### PAR Can
+#### PAR Can (old)
+
+| Channel | Function          | DMX Range & Meaning                   |
+| ------- | ----------------- | ------------------------------------- |
+| 016     | Master Dimmer     | 0–255: Overall brightness             |
+| 017     | Red               | 0–255: Red intensity                  |
+| 018     | Green             | 0–255: Green intensity                |
+| 019     | Blue              | 0–255: Blue intensity                 |
+| 020     | Strobe            | 1–255: Slow to fast strobe (0 = off?) |
+| 021     | Auto Color Change | 1–255: Various color change presets   |
+
+#### PAR Can (old)
 
 | Channel | Function          | DMX Range & Meaning                   |
 | ------- | ----------------- | ------------------------------------- |
