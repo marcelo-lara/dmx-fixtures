@@ -1,0 +1,27 @@
+# macOS system files — ignore these (added 2026-02-10)
+# https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+
+# macOS metadata files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon file (must end with two carriage returns in Finder)
+Icon?
+
+# Resource forks
+._*
+
+# Spotlight and Trash
+.Spotlight-V100
+.Trashes
+
+# Temporary and disk image files
+.AppleDB
+.AppleDesktop
+.NetworkTrashFolder
+.TemporaryItems
+.apdisk
+
+# File system events
+.fseventsd
