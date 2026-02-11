@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>darkangel</Author>
+ </Creator>
+ <Manufacturer>DarkBlue</Manufacturer>
+ <Model>Head Mini Beam</Model>
+ <Type>Moving Head</Type>
+
+ <Channel Name="X pos" Preset="PositionPan"/>
+ <Channel Name="X-Fine Pos" Preset="PositionPanFine"/>
+ <Channel Name="Y Pos" Preset="PositionTilt"/>
+ <Channel Name="Y-Fine Pos" Preset="PositionTiltFine"/>
+ <Channel Name="XY Speed" Preset="SpeedPanTiltFastSlow"/>
+
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer (0 - 100%)</Capability>
+ </Channel>
+
+ <Channel Name="Strobe">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="10" Preset="ShutterOpen">Off</Capability>
+  <Capability Min="11" Max="255" Preset="StrobeSlowToFast">Strobe Slow to Fast</Capability>
+ </Channel>
+
+ <Channel Name="Color Wheel">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="9" Preset="ColorMacro" Res1="#ffffff">White / Open</Capability>
+  <Capability Min="10" Max="19" Preset="ColorMacro">Color 1</Capability>
+  <Capability Min="20" Max="29" Preset="ColorMacro">Color 2</Capability>
+  <Capability Min="30" Max="39" Preset="ColorMacro">Color 3</Capability>
+  <Capability Min="40" Max="49" Preset="ColorMacro">Color 4</Capability>
+  <Capability Min="50" Max="59" Preset="ColorMacro">Color 5</Capability>
+  <Capability Min="60" Max="69" Preset="ColorMacro">Color 6</Capability>
+  <Capability Min="70" Max="79" Preset="ColorMacro">Color 7</Capability>
+  <Capability Min="80" Max="89" Preset="ColorMacro">Color 8</Capability>
+  <Capability Min="90" Max="99" Preset="ColorMacro">Color 9</Capability>
+  <Capability Min="100" Max="119" Preset="ColorMacro">Color 10</Capability>
+  <Capability Min="120" Max="189" Preset="ColorRotationForward">Forward Color Rotation (fast → slow)</Capability>
+  <Capability Min="190" Max="255" Preset="ColorRotationReverse">Reverse Color Rotation (slow → fast)</Capability>
+ </Channel>
+
+ <Channel Name="Gobo Wheel">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="5" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_0.gif">Open</Capability>
+  <Capability Min="6" Max="10" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_1.gif">Gobo 1</Capability>
+  <Capability Min="11" Max="15" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_2.gif">Gobo 2</Capability>
+  <Capability Min="16" Max="20" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_3.gif">Gobo 3</Capability>
+  <Capability Min="21" Max="25" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_4.gif">Gobo 4</Capability>
+  <Capability Min="26" Max="30" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_5.gif">Gobo 5</Capability>
+  <Capability Min="31" Max="35" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_6.gif">Gobo 6</Capability>
+  <Capability Min="36" Max="40" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_7.gif">Gobo 7</Capability>
+  <Capability Min="41" Max="45" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_8.gif">Gobo 8</Capability>
+  <Capability Min="46" Max="50" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_9.gif">Gobo 9</Capability>
+  <Capability Min="51" Max="55" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_10.gif">Gobo 10</Capability>
+  <Capability Min="56" Max="60" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_11.gif">Gobo 11</Capability>
+  <Capability Min="61" Max="65" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_12.gif">Gobo 12</Capability>
+  <Capability Min="66" Max="70" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_13.gif">Gobo 13</Capability>
+  <Capability Min="71" Max="75" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_14.gif">Gobo 14</Capability>
+  <Capability Min="76" Max="80" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_0.gif">Open</Capability>
+  <Capability Min="81" Max="150">Gobo Shake</Capability>
+  <Capability Min="151" Max="200">Forward Gobo Rotation (fast → slow)</Capability>
+  <Capability Min="201" Max="255">Reverse Gobo Rotation (slow → fast)</Capability>
+ </Channel>
+
+ <Channel Name="Prism">
+  <Group Byte="0">Beam</Group>
+  <Capability Min="0" Max="127">Prism Off</Capability>
+  <Capability Min="128" Max="135">Prism On</Capability>
+  <Capability Min="136" Max="255">Prism Rotation (slow → fast)</Capability>
+ </Channel>
+
+ <Channel Name="Macro">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="29">No function</Capability>
+  <Capability Min="30" Max="59">Auto 1</Capability>
+  <Capability Min="60" Max="89">Auto 2</Capability>
+  <Capability Min="90" Max="119">Auto 3</Capability>
+  <Capability Min="120" Max="149">Auto 4</Capability>
+  <Capability Min="150" Max="179">Sound 1</Capability>
+  <Capability Min="180" Max="209">Sound 2</Capability>
+  <Capability Min="210" Max="239">Sound 3</Capability>
+  <Capability Min="240" Max="255">Sound 4</Capability>
+ </Channel>
+
+ <Channel Name="Reset">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="249">No function</Capability>
+  <Capability Min="250" Max="255">Reset</Capability>
+ </Channel>
+
+ <Mode Name="General">
+  <Channel Number="0" ActsOn="0">X pos</Channel>
+  <Channel Number="1" ActsOn="1">X-Fine Pos</Channel>
+  <Channel Number="2" ActsOn="2">Y Pos</Channel>
+  <Channel Number="3" ActsOn="3">Y-Fine Pos</Channel>
+  <Channel Number="4" ActsOn="4">XY Speed</Channel>
+  <Channel Number="5" ActsOn="5">Dimmer</Channel>
+  <Channel Number="6" ActsOn="6">Strobe</Channel>
+  <Channel Number="7" ActsOn="7">Color Wheel</Channel>
+  <Channel Number="8" ActsOn="8">Gobo Wheel</Channel>
+  <Channel Number="9" ActsOn="9">Prism</Channel>
+  <Channel Number="10" ActsOn="10">Macro</Channel>
+  <Channel Number="11" ActsOn="11">Reset</Channel>
+ </Mode>
+
+ <Physical>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="5.5" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="1.5" DegreesMax="1.5"/>
+  <Focus Type="Head" PanMax="540" TiltMax="220"/>
+  <Technical PowerConsumption="230" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>

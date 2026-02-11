@@ -3,12 +3,15 @@
 ## DarkBlue settings
 
 ### Universe 1
-|CH   | device          |
-|-----|-----------------|
-|01-15| Head EL-150     |
-|16-21| Parcan RGB 18   |
-|22-27| Parcan RGB 18   |
-|28-35| Parcan Proton18 |
+|CH           | device                      |
+|-------------|----------------------------|
+|01-15        | Head EL-150                |
+|16-21        | Parcan RGB 18 (L)          |
+|22-27        | Parcan RGB 18 (R)          |
+|28-34        | Parcan Proton18 (L)        |
+|35-41        | Parcan Proton18 (R)        |
+|42-53        | Parcan Proton18 (R)        |
+|54-65        | Parcan Proton18 (R)        |
 
 
 
