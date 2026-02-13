@@ -1,0 +1,472 @@
+[
+  {
+    "id": "head_el150",
+    "name": "Head EL-150",
+    "type": "moving_head",
+    "location": {
+      "x": 0.4,
+      "y": 0,
+      "z": 0
+    },
+    "channels": {
+      "pan_msb": 1,
+      "pan_lsb": 2,
+      "tilt_msb": 3,
+      "tilt_lsb": 4,
+      "speed": 5,
+      "dim": 6,
+      "shutter": 7,
+      "color": 8,
+      "gobo": 9
+    },
+    "current_values": {
+      "pan": 0,
+      "tilt": 0,
+      "speed": 0,
+      "dim": 0,
+      "shutter": 0,
+      "color": 0,
+      "gobo": 0,
+      "autoplay": 0,
+      "movement": 0,
+      "reset": 0
+    },
+    "presets": [
+      {
+        "name": "Piano",
+        "values": {
+          "pan_msb": 120,
+          "pan_lsb": 35,
+          "tilt_msb": 20,
+          "tilt_lsb": 11
+        }
+      }
+    ],
+    "effects": ["full", "strobe", "flash", "fade_in", "seek", "move_to", "sweep"],
+    "arm": {
+      "shutter": 255
+    },
+    "meta": {
+      "channel_types": {
+        "pan": "position_16bit",
+        "tilt": "position_16bit",
+        "shutter": "strobe",
+        "color": "wheel",
+        "gobo": "wheel"
+      },
+      "value_mappings": {
+        "color": {
+            "0": "White",
+            "25": "Orange",
+            "50": "Cyan",
+            "75": "Purple",
+            "100": "Yellow",
+            "125": "Green",
+            "150": "Blue",
+            "175": "Red"
+        },
+        "gobo": {
+            "0": "Open",
+            "25": "Tunnel",
+            "50": "BigOval",
+            "75": "SmallOval",
+            "100": "Squares",
+            "125": "Shapes",
+            "150": "Tribal",
+            "175": "Slashes"
+        }      
+      },
+      "position_constraints": {
+        "pan": {
+          "min": 0,
+          "max": 65535
+        },
+        "tilt": {
+          "min": 70,
+          "max": 3363
+        }
+      }
+
+    }
+  },
+  {
+    "id": "parcan_l",
+    "name": "ParCan L",
+    "type": "rgb",
+    "location": {
+      "x": 0.25,
+      "y": 0,
+      "z": 0
+    },
+    "channels": {
+      "dim": 16,
+      "red": 17,
+      "green": 18,
+      "blue": 19,
+      "strobe": 20
+    },
+    "current_values": {
+    },
+    "presets": [],
+    "effects": ["strobe", "flash", "fade_in", "full"],
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    }
+  },
+  {
+    "id": "parcan_r",
+    "name": "ParCan R",
+    "type": "rgb",
+    "location": {
+      "x": 0.75,
+      "y": 0,
+      "z": 0
+    },
+    "channels": {
+      "dim": 22,
+      "red": 23,
+      "green": 24,
+      "blue": 25,
+      "strobe": 26,
+      "program": 27
+    },
+    "current_values": {
+      "dim": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "strobe": 0,
+      "program": 0
+    },
+    "presets": [],
+    "effects": ["strobe", "flash", "fade_in", "full"],
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    }
+  },
+  {
+    "id": "parcan_pl",
+    "name": "Proton L",
+    "type": "rgb",
+    "location": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "channels": {
+      "dim": 28,
+      "red": 29,
+      "green": 30,
+      "blue": 31,
+      "strobe": 32,
+      "program": 33
+    },
+    "current_values": {
+      "dim": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "strobe": 0,
+      "program": 0
+    },
+    "presets": [],
+    "effects": ["strobe", "flash", "fade_in", "full"],
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    }
+  },
+  {
+    "id": "parcan_pr",
+    "name": "Proton R",
+    "type": "rgb",
+    "location": {
+      "x": 1,
+      "y": 0.1,
+      "z": 0
+    },
+    
+    "channels": {
+      "dim": 35,
+      "red": 36,
+      "green": 37,
+      "blue": 38,
+      "strobe": 39,
+      "program": 40
+    },
+    "current_values": {
+      "dim": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "strobe": 0,
+      "program": 0
+    },
+    "presets": [],
+    "effects": ["strobe", "flash", "fade_in", "full"],
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    }
+  },
+  {
+    "id": "mini_beam_prism_l",
+    "name": "Mini Beam Prism (L)",
+    "type": "moving_head",
+    "location": {
+      "x": 0.15,
+      "y": 0.2,
+      "z": 0
+    },
+    "channels": {
+      "pan_msb": 42,
+      "pan_lsb": 43,
+      "tilt_msb": 44,
+      "tilt_lsb": 45,
+      "speed": 46,
+      "dim": 47,
+      "strobe": 48,
+      "color": 49,
+      "gobo": 50,
+      "prism": 51,
+      "autoplay": 52,
+      "reset": 53
+    },
+    "current_values": {
+      "pan": 0,
+      "tilt": 0,
+      "speed": 0,
+      "dim": 0,
+      "strobe": 0,
+      "color": 0,
+      "gobo": 0,
+      "prism": 0,
+      "autoplay": 0,
+      "reset": 0
+    },
+    "presets": [],
+    "effects": ["full", "strobe", "flash", "fade_in", "seek", "move_to", "sweep"],
+    "arm": {
+      "dim": 255,
+      "strobe": 0
+    },
+    "meta": {
+      "channel_types": {
+        "pan": "position_16bit",
+        "tilt": "position_16bit",
+        "strobe": "strobe",
+        "color": "wheel",
+        "gobo": "wheel",
+        "prism": "prism"
+      },
+      "value_mappings": {
+        "strobe": {
+          "0": "Off",
+          "50": "Slow",
+          "128": "Medium",
+          "255": "Fast"
+        },
+        "color": {
+          "0": "Open/White",
+          "15": "Color 1",
+          "25": "Color 2",
+          "35": "Color 3",
+          "45": "Color 4",
+          "55": "Color 5",
+          "65": "Color 6",
+          "75": "Color 7",
+          "85": "Color 8",
+          "95": "Color 9",
+          "110": "Color 10",
+          "160": "Forward rotation",
+          "220": "Reverse rotation"
+        },
+        "gobo": {
+          "0": "Open",
+          "8": "Gobo 1",
+          "13": "Gobo 2",
+          "18": "Gobo 3",
+          "23": "Gobo 4",
+          "28": "Gobo 5",
+          "33": "Gobo 6",
+          "38": "Gobo 7",
+          "43": "Gobo 8",
+          "48": "Gobo 9",
+          "53": "Gobo 10",
+          "58": "Gobo 11",
+          "63": "Gobo 12",
+          "68": "Gobo 13",
+          "73": "Gobo 14",
+          "115": "Shake",
+          "175": "Forward rotation",
+          "230": "Reverse rotation"
+        },
+        "prism": {
+          "0": "Off",
+          "130": "On",
+          "200": "Rotate"
+        },
+        "autoplay": {
+          "0": "None",
+          "40": "Auto 1",
+          "70": "Auto 2",
+          "100": "Auto 3",
+          "130": "Auto 4",
+          "160": "Sound 1",
+          "195": "Sound 2",
+          "225": "Sound 3",
+          "250": "Sound 4"
+        },
+        "reset": {
+          "0": "None",
+          "255": "Reset"
+        }
+      }
+    }
+  },
+  {
+    "id": "mini_beam_prism_r",
+    "name": "Mini Beam Prism (R)",
+    "type": "moving_head",
+    "location": {
+      "x": 0.85,
+      "y": 0.2,
+      "z": 0
+    },
+    "channels": {
+      "pan_msb": 54,
+      "pan_lsb": 55,
+      "tilt_msb": 56,
+      "tilt_lsb": 57,
+      "speed": 58,
+      "dim": 59,
+      "strobe": 60,
+      "color": 61,
+      "gobo": 62,
+      "prism": 63,
+      "autoplay": 64,
+      "reset": 65
+    },
+    "current_values": {
+      "pan": 0,
+      "tilt": 0,
+      "speed": 0,
+      "dim": 0,
+      "strobe": 0,
+      "color": 0,
+      "gobo": 0,
+      "prism": 0,
+      "autoplay": 0,
+      "reset": 0
+    },
+    "presets": [],
+    "effects": ["full", "strobe", "flash", "fade_in", "seek", "move_to", "sweep"],
+    "arm": {
+      "dim": 255,
+      "strobe": 0
+    },
+    "meta": {
+      "channel_types": {
+        "pan": "position_16bit",
+        "tilt": "position_16bit",
+        "strobe": "strobe",
+        "color": "wheel",
+        "gobo": "wheel",
+        "prism": "prism"
+      },
+      "value_mappings": {
+        "strobe": {
+          "0": "Off",
+          "50": "Slow",
+          "128": "Medium",
+          "255": "Fast"
+        },
+        "color": {
+          "0": "Open/White",
+          "15": "Color 1",
+          "25": "Color 2",
+          "35": "Color 3",
+          "45": "Color 4",
+          "55": "Color 5",
+          "65": "Color 6",
+          "75": "Color 7",
+          "85": "Color 8",
+          "95": "Color 9",
+          "110": "Color 10",
+          "160": "Forward rotation",
+          "220": "Reverse rotation"
+        },
+        "gobo": {
+          "0": "Open",
+          "8": "Gobo 1",
+          "13": "Gobo 2",
+          "18": "Gobo 3",
+          "23": "Gobo 4",
+          "28": "Gobo 5",
+          "33": "Gobo 6",
+          "38": "Gobo 7",
+          "43": "Gobo 8",
+          "48": "Gobo 9",
+          "53": "Gobo 10",
+          "58": "Gobo 11",
+          "63": "Gobo 12",
+          "68": "Gobo 13",
+          "73": "Gobo 14",
+          "115": "Shake",
+          "175": "Forward rotation",
+          "230": "Reverse rotation"
+        },
+        "prism": {
+          "0": "Off",
+          "130": "On",
+          "200": "Rotate"
+        },
+        "autoplay": {
+          "0": "None",
+          "40": "Auto 1",
+          "70": "Auto 2",
+          "100": "Auto 3",
+          "130": "Auto 4",
+          "160": "Sound 1",
+          "195": "Sound 2",
+          "225": "Sound 3",
+          "250": "Sound 4"
+        },
+        "reset": {
+          "0": "None",
+          "255": "Reset"
+        }
+      }
+    }
+  }
+]
