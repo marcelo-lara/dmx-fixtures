@@ -1,253 +1,8 @@
 [
   {
-    "id": "head_el150",
-    "name": "Head EL-150",
-    "type": "moving_head",
-    "location": {
-      "x": 0.4,
-      "y": 0,
-      "z": 0
-    },
-    "channels": {
-      "pan_msb": 1,
-      "pan_lsb": 2,
-      "tilt_msb": 3,
-      "tilt_lsb": 4,
-      "speed": 5,
-      "dim": 6,
-      "shutter": 7,
-      "color": 8,
-      "gobo": 9
-    },
-    "current_values": {
-      "pan": 0,
-      "tilt": 0,
-      "speed": 0,
-      "dim": 0,
-      "shutter": 0,
-      "color": 0,
-      "gobo": 0,
-      "autoplay": 0,
-      "movement": 0,
-      "reset": 0
-    },
-    "presets": [
-      {
-        "name": "Piano",
-        "values": {
-          "pan_msb": 120,
-          "pan_lsb": 35,
-          "tilt_msb": 20,
-          "tilt_lsb": 11
-        }
-      }
-    ],
-    "effects": ["full", "strobe", "flash", "fade_in", "seek", "move_to", "sweep"],
-    "arm": {
-      "shutter": 255
-    },
-    "meta": {
-      "channel_types": {
-        "pan": "position_16bit",
-        "tilt": "position_16bit",
-        "shutter": "strobe",
-        "color": "wheel",
-        "gobo": "wheel"
-      },
-      "value_mappings": {
-        "color": {
-            "0": "White",
-            "25": "Orange",
-            "50": "Cyan",
-            "75": "Purple",
-            "100": "Yellow",
-            "125": "Green",
-            "150": "Blue",
-            "175": "Red"
-        },
-        "gobo": {
-            "0": "Open",
-            "25": "Tunnel",
-            "50": "BigOval",
-            "75": "SmallOval",
-            "100": "Squares",
-            "125": "Shapes",
-            "150": "Tribal",
-            "175": "Slashes"
-        }      
-      },
-      "position_constraints": {
-        "pan": {
-          "min": 0,
-          "max": 65535
-        },
-        "tilt": {
-          "min": 70,
-          "max": 3363
-        }
-      }
-
-    }
-  },
-  {
-    "id": "parcan_l",
-    "name": "ParCan L",
-    "type": "rgb",
-    "location": {
-      "x": 0.25,
-      "y": 0,
-      "z": 0
-    },
-    "channels": {
-      "dim": 16,
-      "red": 17,
-      "green": 18,
-      "blue": 19,
-      "strobe": 20
-    },
-    "current_values": {
-    },
-    "presets": [],
-    "effects": ["strobe", "flash", "fade_in", "full"],
-    "arm": {
-      "dim": 255
-    },
-    "meta": {
-      "channel_types": {
-        "dim": "dimmer",
-        "red": "color",
-        "green": "color",
-        "blue": "color"
-      }
-    }
-  },
-  {
-    "id": "parcan_r",
-    "name": "ParCan R",
-    "type": "rgb",
-    "location": {
-      "x": 0.75,
-      "y": 0,
-      "z": 0
-    },
-    "channels": {
-      "dim": 22,
-      "red": 23,
-      "green": 24,
-      "blue": 25,
-      "strobe": 26,
-      "program": 27
-    },
-    "current_values": {
-      "dim": 0,
-      "red": 0,
-      "green": 0,
-      "blue": 0,
-      "strobe": 0,
-      "program": 0
-    },
-    "presets": [],
-    "effects": ["strobe", "flash", "fade_in", "full"],
-    "arm": {
-      "dim": 255
-    },
-    "meta": {
-      "channel_types": {
-        "dim": "dimmer",
-        "red": "color",
-        "green": "color",
-        "blue": "color"
-      }
-    }
-  },
-  {
-    "id": "parcan_pl",
-    "name": "Proton L",
-    "type": "rgb",
-    "location": {
-      "x": 0,
-      "y": 0.1,
-      "z": 0
-    },
-    "channels": {
-      "dim": 28,
-      "red": 29,
-      "green": 30,
-      "blue": 31,
-      "strobe": 32,
-      "program": 33
-    },
-    "current_values": {
-      "dim": 0,
-      "red": 0,
-      "green": 0,
-      "blue": 0,
-      "strobe": 0,
-      "program": 0
-    },
-    "presets": [],
-    "effects": ["strobe", "flash", "fade_in", "full"],
-    "arm": {
-      "dim": 255
-    },
-    "meta": {
-      "channel_types": {
-        "dim": "dimmer",
-        "red": "color",
-        "green": "color",
-        "blue": "color"
-      }
-    }
-  },
-  {
-    "id": "parcan_pr",
-    "name": "Proton R",
-    "type": "rgb",
-    "location": {
-      "x": 1,
-      "y": 0.1,
-      "z": 0
-    },
-    
-    "channels": {
-      "dim": 35,
-      "red": 36,
-      "green": 37,
-      "blue": 38,
-      "strobe": 39,
-      "program": 40
-    },
-    "current_values": {
-      "dim": 0,
-      "red": 0,
-      "green": 0,
-      "blue": 0,
-      "strobe": 0,
-      "program": 0
-    },
-    "presets": [],
-    "effects": ["strobe", "flash", "fade_in", "full"],
-    "arm": {
-      "dim": 255
-    },
-    "meta": {
-      "channel_types": {
-        "dim": "dimmer",
-        "red": "color",
-        "green": "color",
-        "blue": "color"
-      }
-    }
-  },
-  {
     "id": "mini_beam_prism_l",
     "name": "Mini Beam Prism (L)",
     "type": "moving_head",
-    "location": {
-      "x": 0.15,
-      "y": 0.2,
-      "z": 0
-    },
     "channels": {
       "pan_msb": 42,
       "pan_lsb": 43,
@@ -274,10 +29,82 @@
       "autoplay": 0,
       "reset": 0
     },
-    "presets": [],
-    "effects": ["full", "strobe", "flash", "fade_in", "seek", "move_to", "sweep"],
+    "presets": [
+      {
+        "name": "Piano",
+        "poi_id": "piano"
+      }
+    ],
+    "poi_targets": {
+      "piano": {
+        "pan": 44479,
+        "tilt": 6575
+      },
+      "table": {
+        "pan": 41376,
+        "tilt": 13664
+      },
+      "sofa": {
+        "pan": 42316,
+        "tilt": 19524
+      },
+      "ref_0_0_0": {
+        "pan": 47455,
+        "tilt": 0
+      },
+      "ref_1_0_0": {
+        "pan": 46762,
+        "tilt": 18701
+      },
+      "ref_1_1_0": {
+        "pan": 37886,
+        "tilt": 15584
+      },
+      "ref_1_1_1": {
+        "pan": 31812,
+        "tilt": 16929
+      },
+      "ref_0_1_1": {
+        "pan": 31484,
+        "tilt": 0
+      },
+      "ref_0_0_1": {
+        "pan": 58714,
+        "tilt": 0
+      },
+      "ref_0_1_0": {
+        "pan": 37512,
+        "tilt": 1388
+      },
+      "dark_desk": {
+        "pan": 42366,
+        "tilt": 0
+      },
+      "inblue_desk": {
+        "pan": 37991,
+        "tilt": 2417
+      },
+      "wall": {
+        "pan": 40717,
+        "tilt": 23982
+      },
+      "ceiling_station": {
+        "pan": 29801,
+        "tilt": 17058
+      }
+    },
+    "effects": [
+      "full",
+      "strobe",
+      "flash",
+      "fade_in",
+      "seek",
+      "move_to",
+      "move_to_poi",
+      "sweep"
+    ],
     "arm": {
-      "dim": 255,
+      "dim": 0,
       "strobe": 0
     },
     "meta": {
@@ -298,16 +125,16 @@
         },
         "color": {
           "0": "Open/White",
-          "15": "Color 1",
-          "25": "Color 2",
-          "35": "Color 3",
-          "45": "Color 4",
-          "55": "Color 5",
-          "65": "Color 6",
-          "75": "Color 7",
-          "85": "Color 8",
-          "95": "Color 9",
-          "110": "Color 10",
+          "15": "Red",
+          "25": "Orange",
+          "35": "Yellow",
+          "45": "Green",
+          "55": "Blue",
+          "65": "Indigo",
+          "75": "Cyan",
+          "85": "Cool White",
+          "95": "Magenta",
+          "110": "Warm",
           "160": "Forward rotation",
           "220": "Reverse rotation"
         },
@@ -352,17 +179,17 @@
           "255": "Reset"
         }
       }
+    },
+    "location": {
+      "x": 0.15,
+      "y": 0.2,
+      "z": 0.0
     }
   },
   {
     "id": "mini_beam_prism_r",
     "name": "Mini Beam Prism (R)",
     "type": "moving_head",
-    "location": {
-      "x": 0.85,
-      "y": 0.2,
-      "z": 0
-    },
     "channels": {
       "pan_msb": 54,
       "pan_lsb": 55,
@@ -390,9 +217,76 @@
       "reset": 0
     },
     "presets": [],
-    "effects": ["full", "strobe", "flash", "fade_in", "seek", "move_to", "sweep"],
+    "poi_targets": {
+      "sofa": {
+        "pan": 45296,
+        "tilt": 5640
+      },
+      "piano": {
+        "pan": 42947,
+        "tilt": 22217
+      },
+      "table": {
+        "pan": 46332,
+        "tilt": 15402
+      },
+      "ref_0_0_0": {
+        "pan": 40657,
+        "tilt": 20425
+      },
+      "ref_1_0_0": {
+        "pan": 40718,
+        "tilt": 4271
+      },
+      "ref_1_1_0": {
+        "pan": 49646,
+        "tilt": 2408
+      },
+      "ref_1_1_1": {
+        "pan": 56516,
+        "tilt": 925
+      },
+      "ref_0_1_1": {
+        "pan": 57195,
+        "tilt": 17608
+      },
+      "ref_0_0_1": {
+        "pan": 27857,
+        "tilt": 24860
+      },
+      "ref_0_1_0": {
+        "pan": 50851,
+        "tilt": 17931
+      },
+      "dark_desk": {
+        "pan": 45440,
+        "tilt": 24399
+      },
+      "inblue_desk": {
+        "pan": 50718,
+        "tilt": 21141
+      },
+      "wall": {
+        "pan": 46617,
+        "tilt": 768
+      },
+      "ceiling_station": {
+        "pan": 59549,
+        "tilt": 22394
+      }
+    },
+    "effects": [
+      "full",
+      "strobe",
+      "flash",
+      "fade_in",
+      "seek",
+      "move_to",
+      "move_to_poi",
+      "sweep"
+    ],
     "arm": {
-      "dim": 255,
+      "dim": 0,
       "strobe": 0
     },
     "meta": {
@@ -413,16 +307,16 @@
         },
         "color": {
           "0": "Open/White",
-          "15": "Color 1",
-          "25": "Color 2",
-          "35": "Color 3",
-          "45": "Color 4",
-          "55": "Color 5",
-          "65": "Color 6",
-          "75": "Color 7",
-          "85": "Color 8",
-          "95": "Color 9",
-          "110": "Color 10",
+          "15": "Red",
+          "25": "Orange",
+          "35": "Yellow",
+          "45": "Green",
+          "55": "Blue",
+          "65": "Indigo",
+          "75": "Cyan",
+          "85": "Cool White",
+          "95": "Magenta",
+          "110": "Warm White",
           "160": "Forward rotation",
           "220": "Reverse rotation"
         },
@@ -467,6 +361,334 @@
           "255": "Reset"
         }
       }
+    },
+    "location": {
+      "x": 0.85,
+      "y": 0.2,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "head_el150",
+    "name": "Head EL-150",
+    "type": "moving_head",
+    "channels": {
+      "pan_msb": 1,
+      "pan_lsb": 2,
+      "tilt_msb": 3,
+      "tilt_lsb": 4,
+      "speed": 5,
+      "dim": 6,
+      "shutter": 7,
+      "color": 8,
+      "gobo": 9
+    },
+    "current_values": {
+      "pan": 0,
+      "tilt": 0,
+      "speed": 0,
+      "dim": 0,
+      "shutter": 0,
+      "color": 0,
+      "gobo": 0,
+      "autoplay": 0,
+      "movement": 0,
+      "reset": 0
+    },
+    "presets": [
+      {
+        "name": "Piano",
+        "poi_id": "piano"
+      }
+    ],
+    "poi_targets": {
+      "piano": {
+        "pan": 48656,
+        "tilt": 6762
+      },
+      "table": {
+        "pan": 45341,
+        "tilt": 15252
+      },
+      "sofa": {
+        "pan": 42429,
+        "tilt": 10530
+      },
+      "dark_desk": {
+        "pan": 50773,
+        "tilt": 11766
+      },
+      "inblue_desk": {
+        "pan": 50183,
+        "tilt": 18619
+      },
+      "wall": {
+        "pan": 40729,
+        "tilt": 11073
+      },
+      "ceiling_station": {
+        "pan": 53256,
+        "tilt": 39347
+      },
+      "ref_0_0_0": {
+        "pan": 50099,
+        "tilt": 0
+      },
+      "ref_1_0_0": {
+        "pan": 43299,
+        "tilt": 0
+      },
+      "ref_1_1_0": {
+        "pan": 43232,
+        "tilt": 18383
+      },
+      "ref_0_0_1": {
+        "pan": 41335,
+        "tilt": 65535
+      },
+      "ref_1_1_1": {
+        "pan": 35496,
+        "tilt": 22297
+      },
+      "ref_0_1_1": {
+        "pan": 40548,
+        "tilt": 37520
+      },
+      "ref_0_1_0": {
+        "pan": 50557,
+        "tilt": 20187
+      }
+    },
+    "effects": [
+      "full",
+      "strobe",
+      "flash",
+      "fade_in",
+      "seek",
+      "move_to",
+      "move_to_poi",
+      "sweep"
+    ],
+    "arm": {
+      "shutter": 255
+    },
+    "meta": {
+      "channel_types": {
+        "pan": "position_16bit",
+        "tilt": "position_16bit",
+        "shutter": "strobe",
+        "color": "wheel",
+        "gobo": "wheel"
+      },
+      "value_mappings": {
+        "color": {
+          "0": "White",
+          "25": "Orange",
+          "50": "Cyan",
+          "75": "Purple",
+          "100": "Yellow",
+          "125": "Green",
+          "150": "Blue",
+          "175": "Red"
+        },
+        "gobo": {
+          "0": "Open",
+          "25": "Tunnel",
+          "50": "BigOval",
+          "75": "SmallOval",
+          "100": "Squares",
+          "125": "Shapes",
+          "150": "Tribal",
+          "175": "Slashes"
+        }
+      },
+      "position_constraints": {
+        "pan": {
+          "min": 0,
+          "max": 65535
+        },
+        "tilt": {
+          "min": 70,
+          "max": 3363
+        }
+      }
+    },
+    "location": {
+      "x": 0.4,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "parcan_l",
+    "name": "ParCan L",
+    "type": "rgb",
+    "channels": {
+      "dim": 16,
+      "red": 17,
+      "green": 18,
+      "blue": 19,
+      "strobe": 20
+    },
+    "current_values": {},
+    "presets": [],
+    "poi_targets": {},
+    "effects": [
+      "strobe",
+      "flash",
+      "fade_in",
+      "full"
+    ],
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    },
+    "location": {
+      "x": 0.25,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "parcan_r",
+    "name": "ParCan R",
+    "type": "rgb",
+    "channels": {
+      "dim": 22,
+      "red": 23,
+      "green": 24,
+      "blue": 25,
+      "strobe": 26,
+      "program": 27
+    },
+    "current_values": {
+      "dim": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "strobe": 0,
+      "program": 0
+    },
+    "presets": [],
+    "poi_targets": {},
+    "effects": [
+      "strobe",
+      "flash",
+      "fade_in",
+      "full"
+    ],
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    },
+    "location": {
+      "x": 0.75,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "parcan_pl",
+    "name": "Proton L",
+    "type": "rgb",
+    "channels": {
+      "dim": 28,
+      "red": 29,
+      "green": 30,
+      "blue": 31,
+      "strobe": 32,
+      "program": 33
+    },
+    "current_values": {
+      "dim": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "strobe": 0,
+      "program": 0
+    },
+    "presets": [],
+    "poi_targets": {},
+    "effects": [
+      "strobe",
+      "flash",
+      "fade_in",
+      "full"
+    ],
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    },
+    "location": {
+      "x": 0.0,
+      "y": 0.1,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "parcan_pr",
+    "name": "Proton R",
+    "type": "rgb",
+    "channels": {
+      "dim": 35,
+      "red": 36,
+      "green": 37,
+      "blue": 38,
+      "strobe": 39,
+      "program": 40
+    },
+    "current_values": {
+      "dim": 0,
+      "red": 0,
+      "green": 0,
+      "blue": 0,
+      "strobe": 0,
+      "program": 0
+    },
+    "presets": [],
+    "poi_targets": {},
+    "effects": [
+      "strobe",
+      "flash",
+      "fade_in",
+      "full"
+    ],
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    },
+    "location": {
+      "x": 1.0,
+      "y": 0.1,
+      "z": 0.0
     }
   }
 ]
