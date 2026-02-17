@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FIXANDFUNC">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SDESK">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>5.2.0</Version>
@@ -73,7 +73,7 @@
    <Model>Head Mini Beam</Model>
    <Mode>General</Mode>
    <ID>5</ID>
-   <Name>Head Mini Beam</Name>
+   <Name>Mini Beam L</Name>
    <Universe>0</Universe>
    <Address>41</Address>
    <Channels>12</Channels>
@@ -83,7 +83,7 @@
    <Model>Head Mini Beam</Model>
    <Mode>General</Mode>
    <ID>6</ID>
-   <Name>Head Mini Beam</Name>
+   <Name>Mini Beam R</Name>
    <Universe>0</Universe>
    <Address>53</Address>
    <Channels>12</Channels>
@@ -407,6 +407,222 @@
    <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">68</Step>
    <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">69</Step>
   </Function>
+  <Function ID="71" Type="Scene" Name="Mini Beam L - Color Wheel - White" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,5</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="Mini Beam L - Color Wheel - Red" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,15</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="Mini Beam L - Color Wheel - Orange" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,25</FixtureVal>
+  </Function>
+  <Function ID="74" Type="Scene" Name="Mini Beam L - Color Wheel - Yellow" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,35</FixtureVal>
+  </Function>
+  <Function ID="75" Type="Scene" Name="Mini Beam L - Color Wheel - Green" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,45</FixtureVal>
+  </Function>
+  <Function ID="76" Type="Scene" Name="Mini Beam L - Color Wheel - Blue" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,55</FixtureVal>
+  </Function>
+  <Function ID="77" Type="Scene" Name="Mini Beam L - Color Wheel - Indigo" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,65</FixtureVal>
+  </Function>
+  <Function ID="78" Type="Scene" Name="Mini Beam L - Color Wheel - Cyan" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,75</FixtureVal>
+  </Function>
+  <Function ID="79" Type="Scene" Name="Mini Beam L - Gobo Wheel - Open" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,2</FixtureVal>
+  </Function>
+  <Function ID="80" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 1" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,8</FixtureVal>
+  </Function>
+  <Function ID="81" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 2" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,13</FixtureVal>
+  </Function>
+  <Function ID="82" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 3" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,18</FixtureVal>
+  </Function>
+  <Function ID="83" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 4" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,23</FixtureVal>
+  </Function>
+  <Function ID="84" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 5" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,28</FixtureVal>
+  </Function>
+  <Function ID="85" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 6" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,33</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 7" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,38</FixtureVal>
+  </Function>
+  <Function ID="87" Type="Scene" Name="Mini Beam R - Color Wheel - White" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,5</FixtureVal>
+  </Function>
+  <Function ID="88" Type="Scene" Name="Mini Beam R - Color Wheel - Red" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,15</FixtureVal>
+  </Function>
+  <Function ID="89" Type="Scene" Name="Mini Beam R - Color Wheel - Orange" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,25</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="Mini Beam R - Color Wheel - Yellow" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,35</FixtureVal>
+  </Function>
+  <Function ID="91" Type="Scene" Name="Mini Beam R - Color Wheel - Green" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,45</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="Mini Beam R - Color Wheel - Blue" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,55</FixtureVal>
+  </Function>
+  <Function ID="93" Type="Scene" Name="Mini Beam R - Color Wheel - Indigo" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,65</FixtureVal>
+  </Function>
+  <Function ID="94" Type="Scene" Name="Mini Beam R - Color Wheel - Cyan" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,75</FixtureVal>
+  </Function>
+  <Function ID="95" Type="Scene" Name="Mini Beam R - Gobo Wheel - Open" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,2</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 1" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,8</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 2" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,13</FixtureVal>
+  </Function>
+  <Function ID="98" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 3" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,18</FixtureVal>
+  </Function>
+  <Function ID="99" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 4" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,23</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 5" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,28</FixtureVal>
+  </Function>
+  <Function ID="101" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 6" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,33</FixtureVal>
+  </Function>
+  <Function ID="102" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 7" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,38</FixtureVal>
+  </Function>
+  <Function ID="103" Type="Scene" Name="Mini Beam L - Color Wheel - Cool White" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,85</FixtureVal>
+  </Function>
+  <Function ID="104" Type="Scene" Name="Mini Beam L - Color Wheel - Magenta" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,95</FixtureVal>
+  </Function>
+  <Function ID="105" Type="Scene" Name="Mini Beam L - Color Wheel - Warm White" Path="Mini Beam L/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">7,110</FixtureVal>
+  </Function>
+  <Function ID="106" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 8" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,43</FixtureVal>
+  </Function>
+  <Function ID="107" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 9" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,48</FixtureVal>
+  </Function>
+  <Function ID="108" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 10" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,53</FixtureVal>
+  </Function>
+  <Function ID="109" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 11" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,58</FixtureVal>
+  </Function>
+  <Function ID="110" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 12" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,63</FixtureVal>
+  </Function>
+  <Function ID="111" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 13" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,68</FixtureVal>
+  </Function>
+  <Function ID="112" Type="Scene" Name="Mini Beam L - Gobo Wheel - Gobo 14" Path="Mini Beam L/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">8,73</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="Mini Beam R - Color Wheel - Cool White" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,85</FixtureVal>
+  </Function>
+  <Function ID="114" Type="Scene" Name="Mini Beam R - Color Wheel - Magenta" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,95</FixtureVal>
+  </Function>
+  <Function ID="115" Type="Scene" Name="Mini Beam R - Color Wheel - Warm White" Path="Mini Beam R/ColorWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">7,110</FixtureVal>
+  </Function>
+  <Function ID="116" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 8" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,43</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 9" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,48</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 10" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,53</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 11" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,58</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 12" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,63</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 13" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,68</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="Mini Beam R - Gobo Wheel - Gobo 14" Path="Mini Beam R/GoboWheel">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">8,73</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="Mini Beam L - Strobe - Open" Path="Mini Beam L/Strobe">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">6,10</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="Mini Beam R - Strobe - Open" Path="Mini Beam R/Strobe">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="6">6,10</FixtureVal>
+  </Function>
   <Monitor DisplayMode="0" ShowLabels="0">
    <Font>Arial,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1</Font>
    <ChannelStyle>0</ChannelStyle>
@@ -435,12 +651,36 @@
    <Collapsed>False</Collapsed>
    <Disabled>False</Disabled>
    <Frame Caption="L Parcan" ID="10">
-    <WindowState Visible="True" X="338" Y="530" Width="220" Height="345"/>
+    <WindowState Visible="True" X="5" Y="530" Width="220" Height="345"/>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
+    <Slider Caption="C#2 | L_G" ID="22" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="80" Y="255" Width="70" Height="85"/>
+     <Input ID="0" Universe="0" Channel="129"/>
+     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="1">2</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="D2 | L_B" ID="23" WidgetStyle="Knob" InvertedAppearance="false">
+     <WindowState Visible="True" X="150" Y="255" Width="65" Height="85"/>
+     <Input ID="0" Universe="0" Channel="130"/>
+     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="1">3</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="C2 | L_red" ID="11" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
+     <WindowState Visible="True" X="5" Y="255" Width="75" Height="85"/>
+     <Input ID="0" Universe="0" Channel="128"/>
+     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="1">1</Channel>
+     </Level>
+    </Slider>
     <SoloFrame Caption="Left" ID="70">
      <WindowState Visible="True" X="5" Y="40" Width="210" Height="210"/>
      <AllowResize>True</AllowResize>
@@ -577,174 +817,14 @@
       <Action>Toggle</Action>
      </Button>
     </SoloFrame>
-    <Slider Caption="C#2 | L_G" ID="22" WidgetStyle="Knob" InvertedAppearance="false">
-     <WindowState Visible="True" X="80" Y="255" Width="70" Height="85"/>
-     <Input ID="0" Universe="0" Channel="129"/>
-     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="1">2</Channel>
-     </Level>
-    </Slider>
-    <Slider Caption="C2 | L_red" ID="11" WidgetStyle="Knob" InvertedAppearance="false" CatchValues="true">
-     <WindowState Visible="True" X="5" Y="255" Width="75" Height="85"/>
-     <Input ID="0" Universe="0" Channel="128"/>
-     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="1">1</Channel>
-     </Level>
-    </Slider>
-    <Slider Caption="D2 | L_B" ID="23" WidgetStyle="Knob" InvertedAppearance="false">
-     <WindowState Visible="True" X="150" Y="255" Width="65" Height="85"/>
-     <Input ID="0" Universe="0" Channel="130"/>
-     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="1">3</Channel>
-     </Level>
-    </Slider>
    </Frame>
    <Frame Caption="R Parcan" ID="24">
-    <WindowState Visible="True" X="559" Y="530" Width="220" Height="345"/>
+    <WindowState Visible="True" X="230" Y="530" Width="220" Height="345"/>
     <AllowResize>True</AllowResize>
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <SoloFrame Caption="Right" ID="89">
-     <WindowState Visible="True" X="5" Y="40" Width="210" Height="210"/>
-     <AllowResize>True</AllowResize>
-     <ShowHeader>False</ShowHeader>
-     <ShowEnableButton>False</ShowEnableButton>
-     <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
-     <Button Caption="Black" ID="90">
-      <WindowState Visible="True" X="5" Y="5" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278190080</BackgroundColor>
-      </Appearance>
-      <Function ID="54"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption=" Dark Blue" ID="91">
-      <WindowState Visible="True" X="105" Y="105" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278190208</BackgroundColor>
-      </Appearance>
-      <Function ID="55"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Blue" ID="92">
-      <WindowState Visible="True" X="105" Y="155" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278190335</BackgroundColor>
-      </Appearance>
-      <Function ID="56"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Dark Green" ID="93">
-      <WindowState Visible="True" X="55" Y="105" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278222848</BackgroundColor>
-      </Appearance>
-      <Function ID="57"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Dark Cyan" ID="94">
-      <WindowState Visible="True" X="155" Y="105" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278222976</BackgroundColor>
-      </Appearance>
-      <Function ID="58"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Green" ID="95">
-      <WindowState Visible="True" X="55" Y="155" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278255360</BackgroundColor>
-      </Appearance>
-      <Function ID="59"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Cyan" ID="96">
-      <WindowState Visible="True" X="155" Y="155" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4278255615</BackgroundColor>
-      </Appearance>
-      <Function ID="60"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Dark Yellow" ID="99">
-      <WindowState Visible="True" X="105" Y="5" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4286611456</BackgroundColor>
-      </Appearance>
-      <Function ID="63"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Dark Magenta" ID="98">
-      <WindowState Visible="True" X="155" Y="5" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4286578816</BackgroundColor>
-      </Appearance>
-      <Function ID="62"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Dark Red" ID="97">
-      <WindowState Visible="True" X="5" Y="105" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4286578688</BackgroundColor>
-      </Appearance>
-      <Function ID="61"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption=" White" ID="105">
-      <WindowState Visible="True" X="5" Y="55" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294967295</BackgroundColor>
-      </Appearance>
-      <Function ID="69"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Dark Gray" ID="100">
-      <WindowState Visible="True" X="55" Y="5" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4286611584</BackgroundColor>
-      </Appearance>
-      <Function ID="64"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Red" ID="102">
-      <WindowState Visible="True" X="5" Y="155" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294901760</BackgroundColor>
-      </Appearance>
-      <Function ID="66"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption=" Magenta" ID="103">
-      <WindowState Visible="True" X="155" Y="55" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294902015</BackgroundColor>
-      </Appearance>
-      <Function ID="67"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption=" Yellow" ID="104">
-      <WindowState Visible="True" X="105" Y="55" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4294967040</BackgroundColor>
-      </Appearance>
-      <Function ID="68"/>
-      <Action>Toggle</Action>
-     </Button>
-     <Button Caption="Light Gray" ID="101">
-      <WindowState Visible="True" X="55" Y="55" Width="50" Height="50"/>
-      <Appearance>
-       <BackgroundColor>4290822336</BackgroundColor>
-      </Appearance>
-      <Function ID="65"/>
-      <Action>Toggle</Action>
-     </Button>
-    </SoloFrame>
     <Slider Caption="C#1 | L_G" ID="28" WidgetStyle="Knob" InvertedAppearance="false">
      <WindowState Visible="True" X="80" Y="255" Width="70" Height="85"/>
      <Input ID="0" Universe="0" Channel="141"/>
@@ -769,6 +849,142 @@
       <Channel Fixture="2">1</Channel>
      </Level>
     </Slider>
+    <SoloFrame Caption="Right" ID="89">
+     <WindowState Visible="True" X="5" Y="40" Width="210" Height="210"/>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Dark Red" ID="97">
+      <WindowState Visible="True" X="5" Y="105" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4286578688</BackgroundColor>
+      </Appearance>
+      <Function ID="61"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption=" Magenta" ID="103">
+      <WindowState Visible="True" X="155" Y="55" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4294902015</BackgroundColor>
+      </Appearance>
+      <Function ID="67"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption=" Yellow" ID="104">
+      <WindowState Visible="True" X="105" Y="55" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4294967040</BackgroundColor>
+      </Appearance>
+      <Function ID="68"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Red" ID="102">
+      <WindowState Visible="True" X="5" Y="155" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4294901760</BackgroundColor>
+      </Appearance>
+      <Function ID="66"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Dark Gray" ID="100">
+      <WindowState Visible="True" X="55" Y="5" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4286611584</BackgroundColor>
+      </Appearance>
+      <Function ID="64"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption=" White" ID="105">
+      <WindowState Visible="True" X="5" Y="55" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4294967295</BackgroundColor>
+      </Appearance>
+      <Function ID="69"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Light Gray" ID="101">
+      <WindowState Visible="True" X="55" Y="55" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4290822336</BackgroundColor>
+      </Appearance>
+      <Function ID="65"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Cyan" ID="96">
+      <WindowState Visible="True" X="155" Y="155" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4278255615</BackgroundColor>
+      </Appearance>
+      <Function ID="60"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Green" ID="95">
+      <WindowState Visible="True" X="55" Y="155" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4278255360</BackgroundColor>
+      </Appearance>
+      <Function ID="59"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Dark Cyan" ID="94">
+      <WindowState Visible="True" X="155" Y="105" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4278222976</BackgroundColor>
+      </Appearance>
+      <Function ID="58"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Dark Green" ID="93">
+      <WindowState Visible="True" X="55" Y="105" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4278222848</BackgroundColor>
+      </Appearance>
+      <Function ID="57"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Dark Magenta" ID="98">
+      <WindowState Visible="True" X="155" Y="5" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4286578816</BackgroundColor>
+      </Appearance>
+      <Function ID="62"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Dark Yellow" ID="99">
+      <WindowState Visible="True" X="105" Y="5" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4286611456</BackgroundColor>
+      </Appearance>
+      <Function ID="63"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Black" ID="90">
+      <WindowState Visible="True" X="5" Y="5" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4278190080</BackgroundColor>
+      </Appearance>
+      <Function ID="54"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption=" Dark Blue" ID="91">
+      <WindowState Visible="True" X="105" Y="105" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4278190208</BackgroundColor>
+      </Appearance>
+      <Function ID="55"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="Blue" ID="92">
+      <WindowState Visible="True" X="105" Y="155" Width="50" Height="50"/>
+      <Appearance>
+       <BackgroundColor>4278190335</BackgroundColor>
+      </Appearance>
+      <Function ID="56"/>
+      <Action>Toggle</Action>
+     </Button>
+    </SoloFrame>
    </Frame>
    <Frame Caption="Head" ID="0">
     <WindowState Visible="True" X="5" Y="5" Width="380" Height="525"/>
@@ -777,19 +993,13 @@
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>False</Collapsed>
     <Disabled>False</Disabled>
-    <XYPad Caption="XY Pad" ID="1" InvertedAppearance="0">
-     <WindowState Visible="True" X="0" Y="120" Width="260" Height="250"/>
-     <Appearance>
-      <BackgroundColor>4294967295</BackgroundColor>
-     </Appearance>
-     <Fixture ID="0" Head="0">
-      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
-      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
-     </Fixture>
-     <Window hMin="0" hMax="255" vMin="0" vMax="255"/>
-     <Pan Position="128"/>
-     <Tilt Position="128"/>
-    </XYPad>
+    <Slider Caption="Speed" ID="107" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="255" Y="120" Width="60" Height="250"/>
+     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="215">
+      <Channel Fixture="0">4</Channel>
+     </Level>
+    </Slider>
     <SoloFrame Caption="" ID="30">
      <WindowState Visible="True" X="0" Y="375" Width="375" Height="140"/>
      <AllowResize>True</AllowResize>
@@ -804,12 +1014,6 @@
       <ShowEnableButton>True</ShowEnableButton>
       <Collapsed>False</Collapsed>
       <Disabled>False</Disabled>
-      <Button Caption="00_setup" ID="13">
-       <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
-       <Function ID="1"/>
-       <Action>Toggle</Action>
-       <Input ID="0" Universe="0" Channel="152"/>
-      </Button>
       <Button Caption="couch" ID="14">
        <WindowState Visible="True" X="170" Y="10" Width="50" Height="50"/>
        <Function ID="22"/>
@@ -847,6 +1051,12 @@
        <WindowState Visible="True" X="70" Y="10" Width="50" Height="50"/>
        <Function ID="35"/>
        <Action>Toggle</Action>
+      </Button>
+      <Button Caption="00_setup" ID="13">
+       <WindowState Visible="True" X="10" Y="10" Width="50" Height="50"/>
+       <Function ID="1"/>
+       <Action>Toggle</Action>
+       <Input ID="0" Universe="0" Channel="152"/>
       </Button>
      </Frame>
     </SoloFrame>
@@ -1012,13 +1222,6 @@
       <Action>Toggle</Action>
      </Button>
     </SoloFrame>
-    <Slider Caption="Speed" ID="107" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="255" Y="120" Width="60" Height="250"/>
-     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="215">
-      <Channel Fixture="0">4</Channel>
-     </Level>
-    </Slider>
     <Slider Caption="Dimmer" ID="108" WidgetStyle="Slider" InvertedAppearance="false">
      <WindowState Visible="True" X="310" Y="120" Width="60" Height="250"/>
      <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
@@ -1026,6 +1229,547 @@
       <Channel Fixture="0">5</Channel>
      </Level>
     </Slider>
+    <XYPad Caption="XY Pad" ID="1" InvertedAppearance="0">
+     <WindowState Visible="True" X="0" Y="120" Width="260" Height="250"/>
+     <Appearance>
+      <BackgroundColor>4294967295</BackgroundColor>
+     </Appearance>
+     <Fixture ID="0" Head="0">
+      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+     </Fixture>
+     <Window hMin="0" hMax="255" vMin="0" vMax="255"/>
+     <Pan Position="128"/>
+     <Tilt Position="128"/>
+    </XYPad>
+   </Frame>
+   <Frame Caption="Mini Beam R" ID="220">
+    <WindowState Visible="True" X="775" Y="5" Width="380" Height="525"/>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="" ID="222">
+     <WindowState Visible="True" X="5" Y="40" Width="150" Height="115"/>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="" ID="245">
+      <WindowState Visible="True" X="5" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_0.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="87"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="246">
+      <WindowState Visible="True" X="40" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_1.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="88"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="247">
+      <WindowState Visible="True" X="75" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_2.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="89"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="248">
+      <WindowState Visible="True" X="110" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_3.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="90"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="249">
+      <WindowState Visible="True" X="5" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_4.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="91"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="250">
+      <WindowState Visible="True" X="40" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_5.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="92"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="251">
+      <WindowState Visible="True" X="75" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_6.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="93"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="252">
+      <WindowState Visible="True" X="110" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_7.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="94"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="271">
+      <WindowState Visible="True" X="5" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_8.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="113"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="272">
+      <WindowState Visible="True" X="40" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_9.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="114"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="273">
+      <WindowState Visible="True" X="75" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_10.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="115"/>
+      <Action>Toggle</Action>
+     </Button>
+    </SoloFrame>
+    <SoloFrame Caption="" ID="223">
+     <WindowState Visible="True" X="160" Y="40" Width="150" Height="150"/>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="" ID="253">
+      <WindowState Visible="True" X="5" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_00.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="95"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="254">
+      <WindowState Visible="True" X="40" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_01.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="96"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="255">
+      <WindowState Visible="True" X="75" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_02.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="97"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="256">
+      <WindowState Visible="True" X="110" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_03.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="98"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="257">
+      <WindowState Visible="True" X="5" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_04.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="99"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="258">
+      <WindowState Visible="True" X="40" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_05.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="100"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="259">
+      <WindowState Visible="True" X="75" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_06.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="101"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="260">
+      <WindowState Visible="True" X="110" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_07.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="102"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="274">
+      <WindowState Visible="True" X="5" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_08.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="116"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="275">
+      <WindowState Visible="True" X="40" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_09.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="117"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="276">
+      <WindowState Visible="True" X="75" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_10.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="118"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="277">
+      <WindowState Visible="True" X="110" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_11.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="119"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="278">
+      <WindowState Visible="True" X="5" Y="110" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_12.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="120"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="279">
+      <WindowState Visible="True" X="40" Y="110" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_13.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="121"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="280">
+      <WindowState Visible="True" X="75" Y="110" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_14.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="122"/>
+      <Action>Toggle</Action>
+     </Button>
+    </SoloFrame>
+    <Slider Caption="Dimmer" ID="228" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="310" Y="195" Width="60" Height="250"/>
+     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="6">5</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="Speed" ID="227" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="255" Y="195" Width="60" Height="250"/>
+     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="215">
+      <Channel Fixture="6">4</Channel>
+     </Level>
+    </Slider>
+    <XYPad Caption="XY Pad" ID="221" InvertedAppearance="0">
+     <WindowState Visible="True" X="0" Y="195" Width="260" Height="250"/>
+     <Appearance>
+      <BackgroundColor>4294967295</BackgroundColor>
+     </Appearance>
+     <Fixture ID="6" Head="0">
+      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+     </Fixture>
+     <Window hMin="0" hMax="255" vMin="0" vMax="255"/>
+     <Pan Position="49.1263"/>
+     <Tilt Position="169.74"/>
+    </XYPad>
+    <Button Caption="Open" ID="282">
+     <WindowState Visible="True" X="315" Y="40" Width="60" Height="35"/>
+     <Function ID="124"/>
+     <Action>Toggle</Action>
+    </Button>
+   </Frame>
+   <Frame Caption="Mini Beam L" ID="200">
+    <WindowState Visible="True" X="390" Y="5" Width="380" Height="525"/>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="" ID="202">
+     <WindowState Visible="True" X="5" Y="40" Width="150" Height="115"/>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="" ID="229">
+      <WindowState Visible="True" X="5" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_0.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="71"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="230">
+      <WindowState Visible="True" X="40" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_1.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="72"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="231">
+      <WindowState Visible="True" X="75" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_2.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="73"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="232">
+      <WindowState Visible="True" X="110" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_3.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="74"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="233">
+      <WindowState Visible="True" X="5" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_4.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="75"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="234">
+      <WindowState Visible="True" X="40" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_5.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="76"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="235">
+      <WindowState Visible="True" X="75" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_6.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="77"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="236">
+      <WindowState Visible="True" X="110" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_7.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="78"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="261">
+      <WindowState Visible="True" X="5" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_8.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="103"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="262">
+      <WindowState Visible="True" X="40" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_9.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="104"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="263">
+      <WindowState Visible="True" X="75" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_color_10.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="105"/>
+      <Action>Toggle</Action>
+     </Button>
+    </SoloFrame>
+    <SoloFrame Caption="" ID="203">
+     <WindowState Visible="True" X="160" Y="40" Width="150" Height="150"/>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>False</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="" ID="237">
+      <WindowState Visible="True" X="5" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_00.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="79"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="238">
+      <WindowState Visible="True" X="40" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_01.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="80"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="239">
+      <WindowState Visible="True" X="75" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_02.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="81"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="240">
+      <WindowState Visible="True" X="110" Y="5" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_03.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="82"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="241">
+      <WindowState Visible="True" X="5" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_04.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="83"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="242">
+      <WindowState Visible="True" X="40" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_05.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="84"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="243">
+      <WindowState Visible="True" X="75" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_06.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="85"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="244">
+      <WindowState Visible="True" X="110" Y="40" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_07.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="86"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="264">
+      <WindowState Visible="True" X="5" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_08.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="106"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="265">
+      <WindowState Visible="True" X="40" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_09.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="107"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="266">
+      <WindowState Visible="True" X="75" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_10.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="108"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="267">
+      <WindowState Visible="True" X="110" Y="75" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_11.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="109"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="268">
+      <WindowState Visible="True" X="5" Y="110" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_12.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="110"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="269">
+      <WindowState Visible="True" X="40" Y="110" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_13.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="111"/>
+      <Action>Toggle</Action>
+     </Button>
+     <Button Caption="" ID="270">
+      <WindowState Visible="True" X="75" Y="110" Width="35" Height="35"/>
+      <Appearance>
+       <BackgroundImage>head_mini_beam/Gobos/MiniBeam/mini_beam_gobo_14.gif</BackgroundImage>
+      </Appearance>
+      <Function ID="112"/>
+      <Action>Toggle</Action>
+     </Button>
+    </SoloFrame>
+    <Slider Caption="Dimmer" ID="208" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="310" Y="195" Width="60" Height="250"/>
+     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="5">5</Channel>
+     </Level>
+    </Slider>
+    <Slider Caption="Speed" ID="207" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="255" Y="195" Width="60" Height="250"/>
+     <SliderMode ValueDisplayStyle="Exact">Submaster</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="215">
+      <Channel Fixture="5">4</Channel>
+     </Level>
+    </Slider>
+    <XYPad Caption="XY Pad" ID="201" InvertedAppearance="0">
+     <WindowState Visible="True" X="0" Y="195" Width="260" Height="250"/>
+     <Appearance>
+      <BackgroundColor>4294967295</BackgroundColor>
+     </Appearance>
+     <Fixture ID="5" Head="0">
+      <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
+      <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
+     </Fixture>
+     <Window hMin="0" hMax="255" vMin="0" vMax="255"/>
+     <Pan Position="212.002"/>
+     <Tilt Position="60.6663"/>
+    </XYPad>
+    <Button Caption="Open" ID="281">
+     <WindowState Visible="True" X="315" Y="40" Width="60" Height="35"/>
+     <Function ID="123"/>
+     <Action>Toggle</Action>
+    </Button>
    </Frame>
   </Frame>
  </VirtualConsole>
