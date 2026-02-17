@@ -29,33 +29,33 @@
 
  <Channel Name="Color Wheel">
   <Group Byte="0">Colour</Group>
-  <Capability Min="0" Max="9" Preset="ColorMacro" Res1="#ffffff">White / Open</Capability>
-  <Capability Min="10" Max="19" Preset="ColorMacro">Color 1</Capability>
-  <Capability Min="20" Max="29" Preset="ColorMacro">Color 2</Capability>
-  <Capability Min="30" Max="39" Preset="ColorMacro">Color 3</Capability>
-  <Capability Min="40" Max="49" Preset="ColorMacro">Color 4</Capability>
-  <Capability Min="50" Max="59" Preset="ColorMacro">Color 5</Capability>
-  <Capability Min="60" Max="69" Preset="ColorMacro">Color 6</Capability>
-  <Capability Min="70" Max="79" Preset="ColorMacro">Color 7</Capability>
-  <Capability Min="80" Max="89" Preset="ColorMacro">Color 8</Capability>
-  <Capability Min="90" Max="99" Preset="ColorMacro">Color 9</Capability>
-  <Capability Min="100" Max="119" Preset="ColorMacro">Color 10</Capability>
+  <Capability Min="0" Max="9" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_0.gif">Open/White</Capability>
+  <Capability Min="10" Max="19" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_1.gif">Red</Capability>
+  <Capability Min="20" Max="29" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_2.gif">Orange</Capability>
+  <Capability Min="30" Max="39" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_3.gif">Yellow</Capability>
+  <Capability Min="40" Max="49" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_4.gif">Green</Capability>
+  <Capability Min="50" Max="59" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_5.gif">Blue</Capability>
+  <Capability Min="60" Max="69" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_6.gif">Indigo</Capability>
+  <Capability Min="70" Max="79" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_7.gif">Cyan</Capability>
+  <Capability Min="80" Max="89" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_8.gif">Cool White</Capability>
+  <Capability Min="90" Max="99" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_9.gif">Magenta</Capability>
+  <Capability Min="100" Max="119" Preset="ColorMacro" Res1="MiniBeam/mini_beam_color_10.gif">Warm White</Capability>
   <Capability Min="120" Max="189" Preset="ColorRotationForward">Forward Color Rotation (fast → slow)</Capability>
   <Capability Min="190" Max="255" Preset="ColorRotationReverse">Reverse Color Rotation (slow → fast)</Capability>
  </Channel>
 
  <Channel Name="Gobo Wheel">
   <Group Byte="0">Gobo</Group>
-  <Capability Min="0" Max="5" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_0.gif">Open</Capability>
-  <Capability Min="6" Max="10" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_1.gif">Gobo 1</Capability>
-  <Capability Min="11" Max="15" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_2.gif">Gobo 2</Capability>
-  <Capability Min="16" Max="20" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_3.gif">Gobo 3</Capability>
-  <Capability Min="21" Max="25" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_4.gif">Gobo 4</Capability>
-  <Capability Min="26" Max="30" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_5.gif">Gobo 5</Capability>
-  <Capability Min="31" Max="35" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_6.gif">Gobo 6</Capability>
-  <Capability Min="36" Max="40" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_7.gif">Gobo 7</Capability>
-  <Capability Min="41" Max="45" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_8.gif">Gobo 8</Capability>
-  <Capability Min="46" Max="50" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_9.gif">Gobo 9</Capability>
+  <Capability Min="0" Max="5" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_00.gif">Open</Capability>
+  <Capability Min="6" Max="10" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_01.gif">Gobo 1</Capability>
+  <Capability Min="11" Max="15" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_02.gif">Gobo 2</Capability>
+  <Capability Min="16" Max="20" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_03.gif">Gobo 3</Capability>
+  <Capability Min="21" Max="25" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_04.gif">Gobo 4</Capability>
+  <Capability Min="26" Max="30" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_05.gif">Gobo 5</Capability>
+  <Capability Min="31" Max="35" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_06.gif">Gobo 6</Capability>
+  <Capability Min="36" Max="40" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_07.gif">Gobo 7</Capability>
+  <Capability Min="41" Max="45" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_08.gif">Gobo 8</Capability>
+  <Capability Min="46" Max="50" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_09.gif">Gobo 9</Capability>
   <Capability Min="51" Max="55" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_10.gif">Gobo 10</Capability>
   <Capability Min="56" Max="60" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_11.gif">Gobo 11</Capability>
   <Capability Min="61" Max="65" Preset="GoboMacro" Res1="MiniBeam/mini_beam_gobo_12.gif">Gobo 12</Capability>
