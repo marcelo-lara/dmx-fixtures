@@ -1,0 +1,79 @@
+[
+  {
+    "id": "head_prism_l",
+    "name": "Mini Beam Prism (L)",
+    "fixture_model": "head_prism",
+    "start_address": 42,
+    "location": {
+      "x": 0.15,
+      "y": 0.2,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "head_prism_r",
+    "name": "Mini Beam Prism (R)",
+    "fixture_model": "head_prism",
+    "start_address": 54,
+    "location": {
+      "x": 0.85,
+      "y": 0.2,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "head_el150",
+    "name": "Head EL-150",
+    "fixture_model": "head_el150",
+    "start_address": 1,
+    "location": {
+      "x": 0.4,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "parcan_l",
+    "name": "ParCan L",
+    "fixture_model": "parcan",
+    "start_address": 16,
+    "location": {
+      "x": 0.25,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "parcan_r",
+    "name": "ParCan R",
+    "fixture_model": "proton",
+    "start_address": 22,
+    "location": {
+      "x": 0.75,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "parcan_pl",
+    "name": "Proton L",
+    "fixture_model": "proton",
+    "start_address": 28,
+    "location": {
+      "x": 0.0,
+      "y": 0.1,
+      "z": 0.0
+    }
+  },
+  {
+    "id": "parcan_pr",
+    "name": "Proton R",
+    "fixture_model": "proton",
+    "start_address": 35,
+    "location": {
+      "x": 1.0,
+      "y": 0.1,
+      "z": 0.0
+    }
+  }
+]

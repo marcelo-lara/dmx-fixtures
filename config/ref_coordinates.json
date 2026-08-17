@@ -1,0 +1,186 @@
+[
+    {
+        "id": "ref_0_0_0",
+        "name": "[x0,y0,z0] left back floor",
+        "location": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "fixtures": {
+            "head_prism_l": {
+                "pan": 46489,
+                "tilt": 0
+            },
+            "head_el150": {
+                "pan": 45997,
+                "tilt": 138
+            },
+            "head_prism_r": {
+                "pan": 40964,
+                "tilt": 19405
+            }
+        }
+    },
+    {
+        "id": "ref_1_0_0",
+        "name": "[x1,y0,z0] right back floor",
+        "location": {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "fixtures": {
+            "head_prism_l": {
+                "pan": 46745,
+                "tilt": 17920
+            },
+            "head_el150": {
+                "pan": 38445,
+                "tilt": 650
+            },
+            "head_prism_r": {
+                "pan": 40836,
+                "tilt": 1741
+            }
+        }
+    },
+    {
+        "id": "ref_1_1_0",
+        "name": "[x1,y1,z0] right front floor",
+        "location": {
+            "x": 1,
+            "y": 1,
+            "z": 0
+        },
+        "fixtures": {
+            "head_prism_l": {
+                "pan": 37785,
+                "tilt": 14848
+            },
+            "head_el150": {
+                "pan": 38445,
+                "tilt": 18570
+            },
+            "head_prism_r": {
+                "pan": 49668,
+                "tilt": 1741
+            }
+        }
+    },
+    {
+        "id": "ref_0_1_0",
+        "name": "[x0,y1,z0] left front floor",
+        "location": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        },
+        "fixtures": {
+            "head_prism_l": {
+                "pan": 37901,
+                "tilt": 768
+            },
+            "head_el150": {
+                "pan": 45741,
+                "tilt": 21002
+            },
+            "head_prism_r": {
+                "pan": 50017,
+                "tilt": 16696
+            }
+        }
+    },
+    {
+        "id": "ref_1_1_1",
+        "name": "[x1,y1,z1] right front ceiling",
+        "location": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+        },
+        "fixtures": {
+            "head_prism_l": {
+                "pan": 31385,
+                "tilt": 16640
+            },
+            "head_el150": {
+                "pan": 30665,
+                "tilt": 21984
+            },
+            "head_prism_r": {
+                "pan": 56347,
+                "tilt": 1059
+            }
+        }
+    },
+    {
+        "id": "ref_0_1_1",
+        "name": "[x0,y1,z1] left front ceiling",
+        "location": {
+            "x": 0,
+            "y": 1,
+            "z": 1
+        },
+        "fixtures": {
+            "head_prism_l": {
+                "pan": 31501,
+                "tilt": 0
+            },
+            "head_el150": {
+                "pan": 36465,
+                "tilt": 37607
+            },
+            "head_prism_r": {
+                "pan": 56634,
+                "tilt": 17913
+            }
+        }
+    },
+    {
+        "id": "ref_0_0_1",
+        "name": "[x0,y0,z1] left back ceiling",
+        "location": {
+            "x": 0,
+            "y": 0,
+            "z": 1
+        },
+        "fixtures": {
+            "head_prism_l": {
+                "pan": 59672,
+                "tilt": 0
+            },
+            "head_el150": {
+                "pan": 60198,
+                "tilt": 0
+            },
+            "head_prism_r": {
+                "pan": 28246,
+                "tilt": 24413
+            }
+        }
+    },
+    {
+        "id": "ref_1_0_1",
+        "name": "[x1,y0,z1] right back ceiling",
+        "location": {
+            "x": 1,
+            "y": 0,
+            "z": 1
+        },
+        "fixtures": {
+            "head_prism_l": {
+                "pan": 58637,
+                "tilt": 25527
+            },
+            "head_el150": {
+                "pan": 30973,
+                "tilt": 0
+            },
+            "head_prism_r": {
+                "pan": 29323,
+                "tilt": 1087
+            }
+        }
+    }
+]

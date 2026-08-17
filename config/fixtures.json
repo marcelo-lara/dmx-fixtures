@@ -1,0 +1,237 @@
+[
+  {
+    "id": "head_prism",
+    "name": "Mini Beam Prism",
+    "type": "moving_head",
+    "channels": {
+      "pan_msb": 1,
+      "pan_lsb": 2,
+      "tilt_msb": 3,
+      "tilt_lsb": 4,
+      "speed": 5,
+      "dim": 6,
+      "strobe": 7,
+      "color": 8,
+      "gobo": 9,
+      "prism": 10,
+      "autoplay": 11,
+      "reset": 12
+    },
+    "arm": {
+      "dim": 0,
+      "strobe": 0
+    },
+    "meta": {
+      "channel_types": {
+        "pan": "position_16bit",
+        "tilt": "position_16bit",
+        "strobe": "strobe",
+        "color": "wheel",
+        "gobo": "wheel",
+        "prism": "prism"
+      },
+      "value_mappings": {
+        "strobe": {
+          "0": "Off",
+          "50": "Slow",
+          "128": "Medium",
+          "255": "Fast"
+        },
+        "color": {
+          "0": "Open/White",
+          "15": "Red",
+          "25": "Orange",
+          "35": "Yellow",
+          "45": "Green",
+          "55": "Blue",
+          "65": "Indigo",
+          "75": "Cyan",
+          "85": "Cool White",
+          "95": "Magenta",
+          "110": "Warm",
+          "160": "Forward rotation",
+          "220": "Reverse rotation"
+        },
+        "gobo": {
+          "0": "Open",
+          "8": "Gobo 1",
+          "13": "Gobo 2",
+          "18": "Gobo 3",
+          "23": "Gobo 4",
+          "28": "Gobo 5",
+          "33": "Gobo 6",
+          "38": "Gobo 7",
+          "43": "Gobo 8",
+          "48": "Gobo 9",
+          "53": "Gobo 10",
+          "58": "Gobo 11",
+          "63": "Gobo 12",
+          "68": "Gobo 13",
+          "73": "Gobo 14",
+          "115": "Shake",
+          "175": "Forward rotation",
+          "230": "Reverse rotation"
+        },
+        "prism": {
+          "0": "Off",
+          "130": "On",
+          "200": "Rotate"
+        },
+        "autoplay": {
+          "0": "None",
+          "40": "Auto 1",
+          "70": "Auto 2",
+          "100": "Auto 3",
+          "130": "Auto 4",
+          "160": "Sound 1",
+          "195": "Sound 2",
+          "225": "Sound 3",
+          "250": "Sound 4"
+        },
+        "reset": {
+          "0": "None",
+          "255": "Reset"
+        }
+      }
+    },
+    "effects": [
+      "full",
+      "strobe",
+      "flash",
+      "fade_in",
+      "seek",
+      "move_to",
+      "move_to_poi",
+      "sweep"
+    ]
+  },
+  {
+    "id": "head_el150",
+    "name": "Head EL-150",
+    "type": "moving_head",
+    "channels": {
+      "pan_msb": 1,
+      "pan_lsb": 2,
+      "tilt_msb": 3,
+      "tilt_lsb": 4,
+      "speed": 5,
+      "dim": 6,
+      "shutter": 7,
+      "color": 8,
+      "gobo": 9
+    },
+    "arm": {
+      "shutter": 255
+    },
+    "meta": {
+      "channel_types": {
+        "pan": "position_16bit",
+        "tilt": "position_16bit",
+        "shutter": "strobe",
+        "color": "wheel",
+        "gobo": "wheel"
+      },
+      "value_mappings": {
+        "color": {
+          "0": "White",
+          "25": "Orange",
+          "50": "Cyan",
+          "75": "Purple",
+          "100": "Yellow",
+          "125": "Green",
+          "150": "Blue",
+          "175": "Red"
+        },
+        "gobo": {
+          "0": "Open",
+          "25": "Tunnel",
+          "50": "BigOval",
+          "75": "SmallOval",
+          "100": "Squares",
+          "125": "Shapes",
+          "150": "Tribal",
+          "175": "Slashes"
+        }
+      },
+      "position_constraints": {
+        "pan": {
+          "min": 0,
+          "max": 65535
+        },
+        "tilt": {
+          "min": 70,
+          "max": 3363
+        }
+      }
+    },
+    "effects": [
+      "full",
+      "strobe",
+      "flash",
+      "fade_in",
+      "seek",
+      "move_to",
+      "move_to_poi",
+      "sweep"
+    ]
+  },
+  {
+    "id": "parcan",
+    "name": "ParCan 18",
+    "type": "rgb",
+    "channels": {
+      "dim": 1,
+      "red": 2,
+      "green": 3,
+      "blue": 4,
+      "strobe": 5
+    },
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    },
+    "effects": [
+      "strobe",
+      "flash",
+      "fade_in",
+      "full"
+    ]
+  },
+  {
+    "id": "proton",
+    "name": "ParCan 18 Proton",
+    "type": "rgb",
+    "channels": {
+      "dim": 1,
+      "red": 2,
+      "green": 3,
+      "blue": 4,
+      "strobe": 5,
+      "program": 6
+    },
+    "arm": {
+      "dim": 255
+    },
+    "meta": {
+      "channel_types": {
+        "dim": "dimmer",
+        "red": "color",
+        "green": "color",
+        "blue": "color"
+      }
+    },
+    "effects": [
+      "strobe",
+      "flash",
+      "fade_in",
+      "full"
+    ]
+  }
+]
