@@ -25,7 +25,7 @@ ParCan 18 Proton profile.
 | `channels` | object | Maps controls to 1-based channel offsets within the model's DMX footprint. |
 | `effects` | string array | Effects supported by the model. |
 | `arm` | object | DMX values used to arm or enable the fixture. |
-| `meta` | object | Control metadata, documented wheel values, and optional movement limits. |
+| `meta` | object | Control metadata, documented wheel values, and movement travel times. |
 
 Channel offsets must match the fixture's selected DMX mode. The first channel
 of every model is offset `1`.
@@ -102,8 +102,20 @@ Current types are `position_16bit`, `dimmer`, `color`, `strobe`, `wheel`, and
 `meta.value_mappings` is optional. It maps numeric DMX values (stored as JSON
 object keys) to labels, such as color-wheel slots or strobe speeds.
 
-`meta.position_constraints` is optional and supplies inclusive `min`/`max`
-limits for a 16-bit movement axis.
+`meta.travel_time_ms` is required for `moving_head` models and gives the time,
+in milliseconds, for an axis to traverse its **full 16-bit range** (0 to 65535)
+with no smoothing applied — that is, at `speed` 0. `pan` and `tilt` are stated
+separately so they can differ per model:
+
+```json
+"travel_time_ms": {
+  "pan": 2000,
+  "tilt": 800
+}
+```
+
+Controllers use it to check whether a timed movement is physically achievable.
+The implied maximum rate is `65535 / travel_time_ms` DMX units per millisecond.
 
 ## Minimal patch example
 

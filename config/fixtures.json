@@ -92,6 +92,10 @@
           "0": "None",
           "255": "Reset"
         }
+      },
+      "travel_time_ms": {
+        "pan": 2000,
+        "tilt": 2000
       }
     },
     "effects": [
@@ -153,15 +157,9 @@
           "175": "Slashes"
         }
       },
-      "position_constraints": {
-        "pan": {
-          "min": 0,
-          "max": 65535
-        },
-        "tilt": {
-          "min": 70,
-          "max": 3363
-        }
+      "travel_time_ms": {
+        "pan": 800,
+        "tilt": 800
       }
     },
     "effects": [
