@@ -25,6 +25,8 @@
       "channel_types": {
         "pan": "position_16bit",
         "tilt": "position_16bit",
+        "dim": "dimmer",
+        "speed": "speed",
         "strobe": "strobe",
         "color": "wheel",
         "gobo": "wheel",
@@ -131,6 +133,8 @@
       "channel_types": {
         "pan": "position_16bit",
         "tilt": "position_16bit",
+        "dim": "dimmer",
+        "speed": "speed",
         "shutter": "strobe",
         "color": "wheel",
         "gobo": "wheel"
