@@ -89,6 +89,8 @@ patch-instance ID. Each map entry provides that instance's calibrated 16-bit
 }
 ```
 
+Effects list and purpose are explained in detail in `effects_reference.md`
+
 Typical moving-head effects are `full`, `strobe`, `flash`, `fade_in`, `seek`,
 `move_to`, `move_to_poi`, and `sweep`. RGB fixtures currently expose `full`,
 `strobe`, `flash`, and `fade_in`.
