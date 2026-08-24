@@ -9,16 +9,16 @@
         },
         "fixtures": {
             "head_prism_l": {
-                "pan": 46672,
-                "tilt": 1060
+                "pan": 45209,
+                "tilt": 650
             },
             "head_el150": {
                 "pan": 45525,
                 "tilt": 1824
             },
             "head_prism_r": {
-                "pan": 41645,
-                "tilt": 16966
+                "pan": 40399,
+                "tilt": 22828
             }
         }
     },
@@ -32,16 +32,16 @@
         },
         "fixtures": {
             "head_prism_l": {
-                "pan": 47246,
-                "tilt": 3936
+                "pan": 45794,
+                "tilt": 7800
             },
             "head_el150": {
-                "pan": 44334,
-                "tilt": 453
+                "pan": 43550,
+                "tilt": 0
             },
             "head_prism_r": {
-                "pan": 41022,
-                "tilt": 15376
+                "pan": 39348,
+                "tilt": 20510
             }
         }
     },
@@ -59,8 +59,8 @@
                 "tilt": 6893
             },
             "head_el150": {
-                "pan": 43039,
-                "tilt": 1915
+                "pan": 41943,
+                "tilt": 2006
             },
             "head_prism_r": {
                 "pan": 41609,
@@ -101,16 +101,16 @@
         },
         "fixtures": {
             "head_prism_l": {
-                "pan": 45648,
-                "tilt": 4871
+                "pan": 14768,
+                "tilt": 6081
             },
             "head_el150": {
                 "pan": 43851,
-                "tilt": 3688
+                "tilt": 6831
             },
             "head_prism_r": {
-                "pan": 42401,
-                "tilt": 12214
+                "pan": 42197,
+                "tilt": 20998
             }
         }
     },
@@ -216,16 +216,16 @@
         },
         "fixtures": {
             "head_prism_l": {
-                "pan": 42203,
-                "tilt": 7998
+                "pan": 39475,
+                "tilt": 12854
             },
             "head_el150": {
-                "pan": 42229,
-                "tilt": 10488
+                "pan": 40715,
+                "tilt": 14768
             },
             "head_prism_r": {
-                "pan": 45432,
-                "tilt": 5884
+                "pan": 2285,
+                "tilt": 13974
             }
         }
     },
