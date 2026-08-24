@@ -108,6 +108,7 @@
       "seek",
       "move_to",
       "move_to_poi",
+      "oscillate",
       "sweep"
     ]
   },
@@ -174,6 +175,7 @@
       "seek",
       "move_to",
       "move_to_poi",
+      "oscillate",
       "sweep"
     ]
   },
