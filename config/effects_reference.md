@@ -23,24 +23,33 @@ These answer "how bright, and what color, right now" — never "where."
 
 The baseline look: a light held at a constant level for as long as it's
 active. This is the effect every other intensity effect is a variation of —
-a fade-in is `full` with an entrance, a flash is `full` with an entrance
+a `fade` is `full` with an authored transition, a flash is `full` with an entrance
 and exit, a strobe is `full` toggling on and off. Reach for it when a
 fixture just needs to sit at a level (including off) while something else
 in the scene moves or changes. It's also the effect that carries a static
 color or beam-shaping choice with nothing else animating.
 
-### `fade_in`
+### `fade`
 
-Exists to give a look a deliberate, authored entrance from an explicit
-floor — independent of whatever the fixture was doing a moment before.
-This is a different tool from an ordinary crossfade transition: a
-crossfade blends from history, so its effect depends on what came before
-it. A fade-in ignores history and always starts from its own declared
-starting level, so the same effect produces the same visual rise whether
-the fixture was previously off, at some other color, or mid-strobe. Use it
-whenever the build itself is the point — a light rising out of darkness,
-a wash growing in — rather than a transition between two already-authored
-looks.
+Exists to give a look a deliberate, authored transition from one value to
+another over a set duration — a rise out of darkness, a fall to black, a
+dip, a shift to a new color or level. It fades in and fades out
+indistinctly: the direction is simply whichever way the ending value sits
+relative to the start, not a separate mode. The ending value is always
+explicit. The starting
+value is optional: when it is given, the fade ignores history and always
+starts from that declared value, so the same effect produces the same
+visual change whether the fixture was previously off, at some other color,
+or mid-strobe; when it is omitted, the fade begins from whatever value the
+fixture currently holds, blending out of the live look.
+
+Providing the starting value is a different tool from an ordinary
+crossfade transition: a crossfade blends from history, so its effect
+depends on what came before it, whereas a `fade` with an explicit floor is
+reproducible regardless of context. Reach for the explicit form whenever
+the authored change itself is the point — a light rising out of darkness
+the same way every time — and omit it when you want the fade to pick up
+gracefully from wherever the fixture happens to be.
 
 ### `flash`
 
