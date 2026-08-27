@@ -102,7 +102,17 @@ Current types are `position_16bit`, `dimmer`, `color`, `strobe`, `wheel`, and
 `prism`.
 
 `meta.value_mappings` is optional. It maps numeric DMX values (stored as JSON
-object keys) to labels, such as color-wheel slots or strobe speeds.
+object keys) to labels, such as color-wheel slots or strobe speeds. For
+`color` and `gobo` wheels, each entry is an object with a `label` plus either:
+
+- `color`, a hex RGB string (e.g. `"#FF0000"`) for color-wheel slots, sampled
+  from the wheel's swatch — used to render a color chip in a UI without
+  shipping an image; or
+- `image`, a path to an SVG of the gobo pattern, relative to `config/`.
+
+Slots with neither (e.g. rotation modes, shake) have no `color`/`image`.
+Gobo images live under `config/assets/<model_id>/gobo/`, kept inside `config/`
+since it's the only folder shared with consumers.
 
 `meta.travel_time_ms` is required for `moving_head` models and gives the time,
 in milliseconds, for an axis to traverse its **full 16-bit range** (0 to 65535)
