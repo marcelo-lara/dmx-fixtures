@@ -1,5 +1,12 @@
 # DMX fixtures
 
+This repository is the hardware library (QLC+ workspaces, drivers, fixture
+notes). The authoritative rig configuration (`fixtures.json`,
+`dmx_patch.json`, `pois.json`, `ref_coordinates.json`, gobo assets) moved to
+`rigs/darkblue-office/` in
+[`ai-light-show`](https://github.com/marcelo-lara/ai-light-show); it no
+longer lives in `config/` here.
+
 ## DarkBlue settings
 
 ### Universe 1
