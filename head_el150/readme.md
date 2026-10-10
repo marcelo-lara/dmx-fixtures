@@ -20,26 +20,26 @@
 
 ## Color Wheel (channel 8)
 
-| Value | Color Name        | Image |
-| ----- | ----------------- | ------| 
-|     0 | White             | ![white](Gobos/EL150/el150_color_0.gif)
-|    25 | Orange            | ![white](Gobos/EL150/el150_color_1.gif) 
-|    50 | Cyan              | ![white](Gobos/EL150/el150_color_2.gif)
-|    75 | Purple            | ![white](Gobos/EL150/el150_color_3.gif)  
-|   100 | Yellow            | ![white](Gobos/EL150/el150_color_4.gif) 
-|   125 | Green             | ![white](Gobos/EL150/el150_color_5.gif)
-|   150 | Blue              | ![white](Gobos/EL150/el150_color_6.gif)
-|   175 | Red               | ![white](Gobos/EL150/el150_color_7.gif)
+| Value | Color Name | Image                                    |
+| ----- | ---------- | ---------------------------------------- |
+|     0 | White      | ![White](Gobos/EL150/el150_color_0.gif)  |
+|    25 | Orange     | ![Orange](Gobos/EL150/el150_color_1.gif) |
+|    50 | Cyan       | ![Cyan](Gobos/EL150/el150_color_2.gif)   |
+|    75 | Purple     | ![Purple](Gobos/EL150/el150_color_3.gif) |
+|   100 | Yellow     | ![Yellow](Gobos/EL150/el150_color_4.gif) |
+|   125 | Green      | ![Green](Gobos/EL150/el150_color_5.gif)  |
+|   150 | Blue       | ![Blue](Gobos/EL150/el150_color_6.gif)   |
+|   175 | Red        | ![Red](Gobos/EL150/el150_color_7.gif)    |
 
 ## Gobo Wheel (channel 9)
 
-| Value | Color Name        | Image |
-| ----- | ----------------- | ------| 
-|     0 | White             | ![white](Gobos/EL150/el150_gobo_0.gif)
-|    25 | Orange            | ![white](Gobos/EL150/el150_gobo_1.gif)   
-|    50 | Cyan              | ![white](Gobos/EL150/el150_gobo_2.gif)
-|    75 | Purple            | ![white](Gobos/EL150/el150_gobo_3.gif)    
-|   100 | Yellow            | ![white](Gobos/EL150/el150_gobo_4.gif)   
-|   125 | Green             | ![white](Gobos/EL150/el150_gobo_5.gif)
-|   150 | Blue              | ![white](Gobos/EL150/el150_gobo_6.gif)
-|   175 | Red               | ![white](Gobos/EL150/el150_gobo_7.gif) 
+| Value | Color Name | Image                                      |
+| ----- | ---------- | ------------------------------------------ |
+|     0 | Open       | ![Open](Gobos/EL150/el150_gobo_0.gif)      |
+|    12 | Tunnel     | ![Tunnel](Gobos/EL150/el150_gobo_1.gif)    |
+|    24 | BigOval    | ![BigOval](Gobos/EL150/el150_gobo_2.gif)   |
+|    36 | SmallOval  | ![SmallOval](Gobos/EL150/el150_gobo_3.gif) |
+|    48 | Squares    | ![Squares](Gobos/EL150/el150_gobo_4.gif)   |
+|    60 | Shapes     | ![Shapes](Gobos/EL150/el150_gobo_5.gif)    |
+|    72 | Tribal     | ![Tribal](Gobos/EL150/el150_gobo_6.gif)    |
+|    84 | Slashes    | ![Slashes](Gobos/EL150/el150_gobo_7.gif)   |
