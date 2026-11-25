@@ -10,24 +10,23 @@ longer lives in `config/` here.
 ## DarkBlue settings
 
 ### Universe 1
-|CH           | device                      |
-|-------------|----------------------------|
-|01-12        | Head EL-150 (12ch)         |
-|13-15        | (unused / reserved)        |
-|16-21        | Parcan RGB 18 (L)          |
-|22-27        | Parcan RGB 18 (R)          |
-|28-34        | Parcan Proton18 (L)        |
-|35-41        | Parcan Proton18 (R)        |
-|42-53        | Mini Beam Prism (L)        |
-|54-65        | Mini Beam Prism (R)        |
+|CH           | fixture      | device                     |
+|-------------|--------------|----------------------------|
+|01-12        | head_el150   | Head EL-150 (12ch)         |
+|14-25        | head_prism_l | Mini Beam Prism (L, 12ch)  |
+|26-37        | head_prism_r | Mini Beam Prism (R, 12ch)  |
+|38-44        | parcan_1     | Parcan proton (7ch)        |
+|45-50        | parcan_2     | Parcan (6ch)               |
+|51-57        | parcan_3     | Parcan (7ch)               |
+|58-64        | parcan_4     | Parcan proton (7ch)        |
+|65-71        | parcan_5     | Parcan proton (7ch)        |
+|72-78        | parcan_6     | Parcan proton (7ch)        |
 
 #### QLC+ patch (from workspace)
 
 - QLC+ workspace: `DarkBlue_office.qxw` (QLC+ 5.2.0)
-- Universe 1 output: ArtNet -> `192.168.10.44`
+- Universe 1 output: ArtNet -> `192.168.10.221`
 - Universe 1 input/feedback: MIDI (Novation Launchpad)
-
-
 
 ### Fixtures
 
